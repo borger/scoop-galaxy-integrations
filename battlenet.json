@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet",
-    "version": "0.30",
+    "version": "0.39",
     "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases/download/v0.39/windows.zip",
     "hash": "8451f6135e694dc43d7c04ab8fa4b16c145a7b05e7f3f85c25078ecad9666e35",
     "checkver": {
