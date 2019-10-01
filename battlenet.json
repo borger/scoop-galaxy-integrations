@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet",
-    "version": "2.2.19",
-    "url": "https://github.com/doZennn/steam-rom-manager/releases/download/v2.2.19/steam-rom-manager-portable-2.2.19.exe",
-    "hash": "41de977be3d6612c0c2a81dbe0577d2191c8d02ff7826ba3819416f38d1f2bb2",
+    "version": "0.39",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases/download/v0.39/windows.zip",
+    "hash": "8451f6135e694dc43d7c04ab8fa4b16c145a7b05e7f3f85c25078ecad9666e35",
     "checkver": {
-        "github": "https://github.com/doZennn/steam-rom-manager",
-        "re": "v(?<version>[\\d\\w.]+).exe"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet",
+        "re": "Version v(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases/download/v$version/steam-rom-manager-portable-$version.exe"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases/download/v$version/windows.zip"
     }
 }
