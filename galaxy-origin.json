@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
+    "version": "0.29",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v0.29/windows.zip",
+    "hash": "714bbbddfa5ea500e680088291710da349babc2488eefec7ab4e6194c4d9b0af",
+    "extract_to": "integration",
+    "checkver": {
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
+        "re": "Version v(?<version>[\\d\\w.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v$version/windows.zip"
+    }
+}
