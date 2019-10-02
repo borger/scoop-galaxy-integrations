@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn",
+    "version": "0.24.1",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v0.24.1/windows.zip",
+    "hash": "33c51819c2afd0d1f8491fbc09558c190c5995b32320b39d796350460b1ac410",
+    "extract_to": "integration",
+    "checkver": {
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn",
+        "re": "Version v(?<version>[\\d\\w.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v$version/windows.zip"
+    }
+}
