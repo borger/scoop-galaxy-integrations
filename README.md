@@ -47,7 +47,7 @@ To update all the apps installed on your computer via [Scoop](http://scoop.sh), 
 
     scoop update *
 
-To update a specific emulator via scoop, run
+To update a specific galaxy integration via scoop, run
 
     scoop update <galaxy-integration-name>
     # examples:
@@ -62,7 +62,7 @@ If you're like me and don't want to remember commands, or even to update, you ca
 This bucket is immediately updated once the included integrations get a newer version.
 
 ## Contributing
-Thank you for considering contributing to the Emulators Scoop Bucket! You may propose new features or improvements of existing bucket behavior in the GitHub issue board. If you propose a new feature, please be willing to implement at least some of the code that would be needed to complete the feature.
+Thank you for considering contributing to the Galaxy Integrations Scoop Bucket! You may propose new features or improvements of existing bucket behavior in the GitHub issue board. If you propose a new feature, please be willing to implement at least some of the code that would be needed to complete the feature.
 
 ### Developers
 [borger](https://github.com/borger/)
