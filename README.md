@@ -32,7 +32,7 @@ With the galaxy integrations scoop bucket installed, run
 The integrations will be installed on `C:\Users\<username>\scoop\apps\<galaxy-integration-name>\current`.
 
 #### Notes on the Install Path
-Unfortunately as of today, there's no way to specify a custom install folder per installed app in [Scoop](http://scoop.sh), there is however an alternative for that. You can create a [Symbolic Link](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) and basically add a living shortcut to where you want your emulator to be located. For that, open a command prompt as Administrator and run
+Unfortunately as of today, there's no way to specify a custom install folder per installed app in [Scoop](http://scoop.sh), there is however an alternative for that. You can create a [Symbolic Link](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) and basically add a living shortcut to where you want your integration to be located. Make sure GOG Galaxy is closed, open a command prompt as Administrator and run
 
     mklink /D "C:\Users\<username>\AppData\Local\GOG.com\Galaxy\plugins\installed\<galaxy-integration-name>" "C:\Users\<username>\scoop\apps\<galaxy-integration-name>\current\integration"
 Make sure to change the `<username>` and `<galaxy-integration-name>` with the actual names.
