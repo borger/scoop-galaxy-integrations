@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/UncleGoogle/galaxy-integration-humblebundle",
+    "version": "0.4.1",
+    "url": "https://github.com/UncleGoogle/galaxy-integration-humblebundle/releases/download/v0.4.1/humblebundle_0.4.1.zip",
+    "hash": "53bca1d4273b93f4f2d234856e56568185d9cf5748b1650dbe9d7b20134a303e",
+    "extract_to": "integration",
+    "checkver": {
+        "github": "https://github.com/UncleGoogle/galaxy-integration-humblebundle"
+    },
+    "autoupdate": {
+        "url": "https://github.com/UncleGoogle/galaxy-integration-humblebundle/releases/download/v$version/humblebundle_$version.zip"
+    }
+}
