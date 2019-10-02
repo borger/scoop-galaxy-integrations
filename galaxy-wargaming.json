@@ -1,0 +1,15 @@
+{
+    "homepage": "https://github.com/Mixaill/galaxy-integration-wargaming",
+    "version": "0.7.5",
+    "url": "https://github.com/Mixaill/galaxy-integration-wargaming/archive/v0.7.5.zip",
+    "hash": "a68e3d3396ba2443cd44a144ac57c1921687668e2218341d099bdab7afead6ba",
+    "extract_dir": "galaxy-integration-wargaming-0.7.5",
+    "extract_to": "integration",
+    "checkver": {
+        "github": "https://github.com/Mixaill/galaxy-integration-wargaming"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Mixaill/galaxy-integration-wargaming/archive/v$version.zip",
+        "extract_dir": "galaxy-integration-wargaming-$version"
+    }
+}
