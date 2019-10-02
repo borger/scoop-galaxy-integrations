@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda",
+    "version": "0.13",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/v0.13/windows.zip",
+    "hash": "a94ddf123383ea2d3e8ce744babfa513f6728b181d17b0c431db005c11874aa8",
+    "extract_to": "integration",
+    "checkver": {
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda",
+        "re": "Version v(?<version>[\\d\\w.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/v$version/windows.zip"
+    }
+}
