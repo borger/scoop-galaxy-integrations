@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-uplay",
+    "version": "0.46",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-uplay/releases/download/v0.46/windows.zip",
+    "hash": "cf2ab9f79ec85f30b1628358838dc6f7fcbc4e561f9e95202558956ceed8a93a",
+    "extract_to": "integration",
+    "checkver": {
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-uplay",
+        "re": "Version v(?<version>[\\d\\w.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-uplay/releases/download/v$version/windows.zip"
+    }
+}
