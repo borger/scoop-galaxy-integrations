@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic",
+    "version": "0.42",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic/releases/download/v0.42/windows.zip",
+    "hash": "30f90015f9c8f464e38e6a1a010be18f9808e23f4f61ebb4002bdd64d0531227",
+    "extract_to": "integration",
+    "checkver": {
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic",
+        "re": "Version v(?<version>[\\d\\w.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic/releases/download/v$version/windows.zip"
+    }
+}
