@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/JTNDev/galaxy-integration-gc",
-    "version": "0.3",
-    "url": "https://github.com/JTNDev/galaxy-integration-gc/releases/download/v0.3/Dolphin.GameCube.Plugin.v0.3.zip",
-    "hash": "493e9e78cbbd6c3c3cb6cdaa88b44413f242fc214ee001f910b4a6c3e8edbd3f",
+    "version": "0.3.1",
+    "url": "https://github.com/JTNDev/galaxy-integration-gc/releases/download/v0.3.1/Dolphin.GameCube.Plugin.v0.3.1.zip",
+    "hash": "845f5740524dd8d611e33e0d60ab8ca8324cc91f5e64a6655c0565d0a01f505b",
     "extract_dir": "dolphin_gc_dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb",
     "extract_to": "integration",
     "pre_install": [
