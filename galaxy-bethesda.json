@@ -49,7 +49,7 @@
         "    Write-Host \"2) Run:\" -f Yellow",
         "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
         "} elseif ($link) {",
-        "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> `${$null}",
+        "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
         "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
         "    If ($installed.count -gt 1) {",
         "        Write-Host \"WARNING:\" -f Yellow",
