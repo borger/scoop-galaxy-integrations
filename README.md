@@ -13,7 +13,7 @@ Make sure [PowerShell 5](https://aka.ms/wmf5download) (or later, include [PowerS
 Scoop will be installed by default on your user's home folder, likely on `C:\Users\<username>\scoop\`.
 
 #### Installing Galaxy Integrations Scoop Bucket
-To make it easy to install apps from this bucket, with [scoop](#-Installing-Scoop) installed, run
+To make it easy to install apps from this bucket, with [scoop](#-Installing-Scoop) installed run
 
     scoop bucket add galaxy-integrations https://github.com/borger/scoop-galaxy-integrations.git
 The bucket will be installed on `C:\Users\<username>\scoop\buckets\galaxy-integrations\`.
@@ -23,7 +23,7 @@ To find which apps are available to install (from all installed buckets), run
     scoop search
 
 #### Installing Galaxy Integrations from the Scoop Bucket
-With the galaxy integrations scoop bucket installed, run 
+With the galaxy integrations scoop bucket installed and GOG Galaxy closed, run 
 
     scoop install <galaxy-integration-name>
     # examples:
@@ -32,7 +32,7 @@ With the galaxy integrations scoop bucket installed, run
 The integrations will be installed on `C:\Users\<username>\scoop\apps\<galaxy-integration-name>\current`.
 
 #### Notes on the Install Path
-Unfortunately as of today, there's no way to specify a custom install folder per installed app in [Scoop](http://scoop.sh), there is however an alternative for that. You can create a [Symbolic Link](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) and basically add a living shortcut to where you want your integration to be located. Make sure GOG Galaxy is closed, open a command prompt as Administrator and run
+The integrations are installed in the [scoop](#-Installing-Scoop) folder, in order to make it visible to GOG Galaxy, [scoop](#-Installing-Scoop) will automatically create a [Symbolic Link](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) for you. It does require Administrator privilege, so if you're not already on an Administrator PowerShell session, [scoop](#-Installing-Scoop) will ask you to elevate your permission via a Windows `User Account Control` pop-up. You can however opt to do it manually. To do so, make sure GOG Galaxy is closed, open a command prompt as Administrator and run
 
     mklink /D "%localappdata%\GOG.com\Galaxy\plugins\installed\<galaxy-integration-name>" "%homepath%\scoop\apps\<galaxy-integration-name>\current\integration"
 Make sure to change `<galaxy-integration-name>` with the actual names.
@@ -64,5 +64,6 @@ This bucket is immediately updated once the included integrations get a newer ve
 ## Contributing
 Thank you for considering contributing to the Galaxy Integrations Scoop Bucket! You may propose new features or improvements of existing bucket behavior in the GitHub issue board. If you propose a new feature, please be willing to implement at least some of the code that would be needed to complete the feature.
 
-### Developers
-[borger](https://github.com/borger/)
+### Credits
+- [lukesampson](https://github.com/lukesampson) for creating Scoop.
+- [Mixaill](https://github.com/Mixaill/) for creating & maintaining the [awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy) list of integrations.
