@@ -72,6 +72,6 @@
         "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/v$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/$version/windows.zip"
     }
 }
