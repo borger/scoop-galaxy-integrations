@@ -77,7 +77,7 @@
     "persist": "integration\\user_config.py",
     "checkver": {
         "github": "https://github.com/JTNDev/galaxy-integration-wii",
-        "re": "/releases/download/v([\\d.]+)/(?<file>(galaxy-integration-wii(-)?|Wii.Dolphin.|Dolphin.Wii.Plugin.)(v)?([\\d.]+)?.(zip|7z))"
+        "re": "/releases/download/v([\\d.]+)/(?<file>(galaxy-integration-wii(-)?|Wii.Dolphin.|Dolphin.Wii.Plugin.|Dolphin-Wii-Galaxy-2.0-Plugin-)(v)?([\\d.]+)?.(zip|7z))"
     },
     "autoupdate": {
         "url": "https://github.com/JTNDev/galaxy-integration-wii/releases/download/v$version/$matchFile"
