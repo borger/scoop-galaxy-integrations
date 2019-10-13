@@ -69,8 +69,7 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda"
     },
     "autoupdate": {
         "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/v$version/windows.zip"
