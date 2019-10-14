@@ -6,11 +6,6 @@
     "hash": "e04d499bc843ca5c9c8c79b90412d2b671c9c47af8d87e7f43d00562cf73e11f",
     "extract_dir": "dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb",
     "extract_to": "integration",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\integration\\user_config.py\")) {",
-        "    New-Item \"$dir\\integration\\user_config.py\" -Type File | Out-Null",
-        "}"
-    ],
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\ncube-dolphin\").Delete()"
     },
