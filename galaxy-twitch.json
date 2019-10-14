@@ -4,13 +4,7 @@
     "depends": "sudo",
     "url": "https://github.com/nyash-qq/galaxy-plugin-twitch/releases/download/0.4/twitch_8b831aed-dd5f-c0c5-c843-41f9751f67a2_v0.4_win32.zip",
     "hash": "a7fbe9b33a478dc430af5773cf8b236d7d6d20d1b01f502ae0b5584efbaa5bff",
-    "extract_dir": "dolphin_fc3e85e4-c66b-4310-96c0-8f95cc43e546",
     "extract_to": "integration",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\integration\\user_config.py\")) {",
-        "    New-Item \"$dir\\integration\\user_config.py\" -Type File | Out-Null",
-        "}"
-    ],
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\twitch\").Delete()"
     },
@@ -72,7 +66,6 @@
         "    }",
         "}"
     ],
-    "persist": "integration\\user_config.py",
     "checkver": {
         "github": "https://github.com/nyash-qq/galaxy-plugin-twitch"
     },
