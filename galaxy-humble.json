@@ -8,12 +8,12 @@
     "extract_to": "integration",
     "uninstaller": {
         "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\humblebundle\").Delete()"
+            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\humble\").Delete()"
         ]
     },
     "post_install": [
-        "$integration = \"humblebundle\"",
-        "$wildcard = \"*humble*bundle*\"",
+        "$integration = \"humble\"",
+        "$wildcard = \"*humble*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
