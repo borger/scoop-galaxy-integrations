@@ -1,17 +1,24 @@
 {
-    "homepage": "https://github.com/JTNDev/galaxy-integration-gc",
-    "version": "0.3.4",
+    "homepage": "https://github.com/TBemme/galaxy-integration-nds",
+    "version": "0.1.0",
     "depends": "sudo",
-    "url": "https://github.com/JTNDev/galaxy-integration-gc/releases/download/v0.3.4/Dolphin-GCN-Retroarch-v0.3.4.zip",
-    "hash": "e04d499bc843ca5c9c8c79b90412d2b671c9c47af8d87e7f43d00562cf73e11f",
-    "extract_dir": "dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb",
+    "url": "https://github.com/TBemme/galaxy-integration-nds/releases/download/v0.1.0/galaxy-integration-nds-0.1.0.zip",
+    "hash": "6ddc4cfc87272509456a62ed0314459d2b1fa443907a370652bc3ff9e9c5ffd4",
+    "extract_dir": "nds_81f936fb-39d9-48bc-b2c5-d4d45b80fbd9",
     "extract_to": "integration",
+    "notes": [
+        "COMPATIBLE EMULATORS:",
+        "RetroArch, DeSmuME",
+        "NOTES/INSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
+        "Configure the plugin by editing the config.py file, and providing the desired paths and files.",
+        "Check https://github.com/TBemme/galaxy-integration-nds for more details..."
+    ],
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\ncube-dolphin\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nds\").Delete()"
     },
     "post_install": [
-        "$integration = \"ncube-dolphin\"",
-        "$wildcard = \"*ncube*\"",
+        "$integration = \"nds\"",
+        "$wildcard = \"*nds-*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,12 +74,11 @@
         "    }",
         "}"
     ],
-    "persist": "integration\\user_config.py",
+    "persist": "integration\\config.py",
     "checkver": {
-        "github": "https://github.com/JTNDev/galaxy-integration-gc",
-        "re": "/releases/download/v([\\d.]+)/(?<file>((Dolphin?)(.|-)(GameCube.Plugin.|GCN-Retroarch-))(v)?([\\d.]+)?.(zip|7z))"
+        "github": "https://github.com/TBemme/galaxy-integration-nds"
     },
     "autoupdate": {
-        "url": "https://github.com/JTNDev/galaxy-integration-gc/releases/download/v$version/$matchFile"
+        "url": "https://github.com/TBemme/galaxy-integration-nds/releases/download/v$version/galaxy-integration-nds-$version.zip"
     }
 }

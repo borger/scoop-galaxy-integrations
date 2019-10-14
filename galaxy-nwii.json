@@ -1,22 +1,21 @@
 {
-    "homepage": "https://github.com/TBemme/galaxy-integration-nds",
-    "version": "0.1.0",
+    "homepage": "https://github.com/JTNDev/galaxy-integration-wii",
+    "version": "0.3.4",
     "depends": "sudo",
-    "url": "https://github.com/TBemme/galaxy-integration-nds/releases/download/v0.1.0/galaxy-integration-nds-0.1.0.zip",
-    "hash": "6ddc4cfc87272509456a62ed0314459d2b1fa443907a370652bc3ff9e9c5ffd4",
-    "extract_dir": "nds_81f936fb-39d9-48bc-b2c5-d4d45b80fbd9",
+    "url": "https://github.com/JTNDev/galaxy-integration-wii/releases/download/v0.3.4/Dolphin-Wii-Galaxy-2.0-Plugin-v0.3.4.zip",
+    "hash": "4bbc2a24b91982114950b9e987eca1762501d93315161167d69ec3f354a6f19c",
+    "extract_dir": "dolphin_fc3e85e4-c66b-4310-96c0-8f95cc43e546",
     "extract_to": "integration",
     "notes": [
-        "NOTES/INSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
-        "Configure the plugin by editing the config.py file, and providing the desired paths and files.",
-        "Check https://github.com/TBemme/galaxy-integration-nds for more details..."
+        "COMPATIBLE EMULATORS:",
+        "RetroArch, Dolphin"
     ],
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nds-various\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nwii\").Delete()"
     },
     "post_install": [
-        "$integration = \"nds-various\"",
-        "$wildcard = \"*nds-*\"",
+        "$integration = \"nwii\"",
+        "$wildcard = \"*nwii-*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -72,11 +71,12 @@
         "    }",
         "}"
     ],
-    "persist": "integration\\config.py",
+    "persist": "integration\\user_config.py",
     "checkver": {
-        "github": "https://github.com/TBemme/galaxy-integration-nds"
+        "github": "https://github.com/JTNDev/galaxy-integration-wii",
+        "re": "/releases/download/v([\\d.]+)/(?<file>(galaxy-integration-wii(-)?|Wii.Dolphin.|Dolphin.Wii.Plugin.|Dolphin-Wii-Galaxy-2.0-Plugin-)(v)?([\\d.]+)?.(zip|7z))"
     },
     "autoupdate": {
-        "url": "https://github.com/TBemme/galaxy-integration-nds/releases/download/v$version/galaxy-integration-nds-$version.zip"
+        "url": "https://github.com/JTNDev/galaxy-integration-wii/releases/download/v$version/$matchFile"
     }
 }
