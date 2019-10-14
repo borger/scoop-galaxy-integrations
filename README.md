@@ -2,6 +2,47 @@
 
 There's no easy way to keep track of all existing galaxy integrations out there and keep them up-to-date. [Scoop](http://scoop.sh) helps you get the programs you need, with a minimal amount of point-and-clicking. It's highly scalable and easily customized. It's almost like a package manager our *NIX friends know and love. It makes it easy to download, install, update and uninstall apps on your computer, as easy as `scoop install <app-name>`, cool right? I've always struggled to get my galaxy integrations in the latest version, there's just so many!
 
+## Integrations Available in this Bucket
+The list below contains only the integrations available in this scoop, if you are looking for more integrations to be manually installed or to be added to this bucket, check the full list at [awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy).
+
+Integration Platform                              | Manifest Name         |
+------------------------------------------------- | ----------------------|
+***Friends of Galaxy***                                                   |
+[Battle.net][battlenet]                           | `galaxy-battlenet`    |
+[Bethesda.net][bethesda]                          | `galaxy-bethesda`     |
+[Epic Games Store][epic]                          | `galaxy-epic`         |
+[Origin][origin]                                  | `galaxy-origin`       |
+[PSN][psn]                                        | `galaxy-psn`          |
+[Steam][steam]                                    | `galaxy-steam`        |
+[Uplay][uplay]                                    | `galaxy-uplay`        |
+***Community, Stores***                                                   |
+[Discord][discord]                                | `galaxy-discord`      |
+[Humble Bundle][humble]                           | `galaxy-humble`       |
+[Wargaming.net][wargaming]                        | `galaxy-wargaming`    |
+***Community, Games***                                                    |
+[Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
+***Community, Emulators***                                                |
+[Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
+[Nintendo GameCube (Dolphin)][ncube]              | `galaxy-ncube-dolphin`|
+[Nintendo Wii (Dolphin)][nwii]                    | `galaxy-nwii-dolphin` |
+[Nintendo Wii U (Cemu)][nwiiu]                    | `galaxy-nwiiu-cemu`   |
+
+[battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet "Friends of Galaxy"
+[epic]: https://github.com/FriendsOfGalaxy/galaxy-integration-epic "Friends of Galaxy"
+[origin]: https://github.com/FriendsOfGalaxy/galaxy-integration-origin "Friends of Galaxy"
+[psn]: https://github.com/FriendsOfGalaxy/galaxy-integration-psn "Friends of Galaxy"
+[steam]: https://github.com/FriendsOfGalaxy/galaxy-integration-steam "Friends of Galaxy"
+[uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
+[bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
+[humble]: https://github.com/UncleGoogle/galaxy-integration-humblebundle "Maintainted by @UncleGoogle"
+[pathofexile]: https://github.com/nyash-qq/galaxy-plugin-poe "Maintainted by @nyash-qq"
+[wargaming]: https://github.com/Mixaill/galaxy-integration-wargaming "Maintainted by @Mixaill"
+[3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
+[ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintainted by @JTNDev"
+[nwii]: https://github.com/JTNDev/galaxy-integration-wii "Maintainted by @JTNDev"
+[nwiiu]: https://github.com/LeonardFiedrowicz/galaxy-integration-cemu "Maintained by @LeonardFiedrowicz"
+[discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
+
 ## Installation
 #### Installing Scoop
 Make sure [PowerShell 5](https://aka.ms/wmf5download) (or later, include [PowerShell Core](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-6)) and [.NET Framework 4.5](https://www.microsoft.com/net/download) (or later) are installed. Then run:
