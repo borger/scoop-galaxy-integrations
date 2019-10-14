@@ -6,7 +6,7 @@
     "hash": "0c8a958abe20d90f84005a9d4757bf8d8ef3f7fcdec9895af9b27a3adc2d79a1",
     "extract_dir": "galaxy-integration-n64-RetroArch--0.2",
     "extract_to": "integration",
-    "notes": "Make sure to review the user_config.py file on ",
+    "notes": "Make sure to review the user_config.py file on \"%LOCALAPPDATA%\\GOG.com\\Galaxy\\plugins\\installed\\n64\"",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\n64\").Delete()"
     },
