@@ -27,9 +27,9 @@ Integration Platform                              | Manifest Name         |
 [Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
 ***Community, Emulators***                                                |
 [Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
-[Nintendo DS][nds]                                | `galaxy-nds-various`  |
-[Nintendo GameCube (Dolphin)][ncube]              | `galaxy-ncube-dolphin`|
-[Nintendo Wii (Dolphin)][nwii]                    | `galaxy-nwii-dolphin` |
+[Nintendo DS][nds]                                | `galaxy-nds`          |
+[Nintendo GameCube][ncube]                        | `galaxy-ncube`        |
+[Nintendo Wii][nwii]                              | `galaxy-nwii`         |
 [Nintendo Wii U (Cemu)][nwiiu]                    | `galaxy-nwiiu-cemu`   |
 
 [battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet "Friends of Galaxy"
