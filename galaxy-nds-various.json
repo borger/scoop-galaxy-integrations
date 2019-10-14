@@ -11,11 +11,6 @@
         "Configure the plugin by editing the config.py file, and providing the desired paths and files.",
         "Check https://github.com/TBemme/galaxy-integration-nds for more details..."
     ],
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\integration\\config.py\")) {",
-        "    New-Item \"$dir\\integration\\config.py\" -Type File | Out-Null",
-        "}"
-    ],
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nds-various\").Delete()"
     },
