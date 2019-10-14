@@ -27,6 +27,7 @@ Integration Platform                              | Manifest Name         |
 [Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
 ***Community, Emulators***                                                |
 [Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
+[Nintendo 64 (RetroArch)][n64]                    | `galaxy-n64`          |
 [Nintendo DS (RetroArch, DeSmuME)][nds]           | `galaxy-nds`          |
 [Nintendo GameCube (RetroArch, Dolphin)][ncube]   | `galaxy-ncube`        |
 [Nintendo Wii (RetroArch, Dolphin)][nwii]         | `galaxy-nwii`         |
@@ -47,6 +48,7 @@ Integration Platform                              | Manifest Name         |
 [twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
 [wargaming]: https://github.com/Mixaill/galaxy-integration-wargaming "Maintainted by @Mixaill"
 [3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
+[n64]: https://github.com/Riku55/galaxy-integration-n64-RetroArch- "Maintained by @Riku55"
 [nds]: https://github.com/TBemme/galaxy-integration-nds "Maintainted by @TBemme"
 [ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintainted by @JTNDev"
 [nwii]: https://github.com/JTNDev/galaxy-integration-wii "Maintainted by @JTNDev"
