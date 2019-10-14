@@ -74,17 +74,17 @@ To find which apps are available to install (from all installed buckets), run
 #### Installing Galaxy Integrations from the Scoop Bucket
 With the galaxy integrations scoop bucket installed and GOG Galaxy closed, run 
 
-    scoop install <galaxy-integration-name>
+    scoop install <manifest-name>
     # examples:
     scoop install galaxy-steam
     scoop install galaxy-uplay
-The integrations will be installed on `C:\Users\<username>\scoop\apps\<galaxy-integration-name>\current`.
+The integrations will be installed on `C:\Users\<username>\scoop\apps\<manifest-name>\current`.
 
 #### Notes on the Install Path
 The integrations are installed in the [scoop](#-Installing-Scoop) folder, to make it visible to GOG Galaxy, [scoop](#-Installing-Scoop) will automatically create a [Symbolic Link](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) for you. It does require Administrator privilege, so if you're not already on an Administrator PowerShell session, [scoop](#-Installing-Scoop) will ask you to elevate your permission via a Windows `User Account Control` pop-up. You can, however, opt to do it manually. To do so, make sure GOG Galaxy is closed, open a command prompt as Administrator and run
 
-    mklink /D "%localappdata%\GOG.com\Galaxy\plugins\installed\<galaxy-integration-name>" "%homepath%\scoop\apps\<galaxy-integration-name>\current\integration"
-Make sure to change `<galaxy-integration-name>` with the actual names.
+    mklink /D "%localappdata%\GOG.com\Galaxy\plugins\installed\<manifest-name>" "%homepath%\scoop\apps\<manifest-name>\current\integration"
+Make sure to change `<manifest-name>` with the actual names.
 ## Updates
 #### Updating Scoop
 To update scoop itself, run
@@ -98,7 +98,7 @@ To update all the apps installed on your computer via [Scoop](http://scoop.sh), 
 
 To update a specific galaxy integration via scoop, run
 
-    scoop update <galaxy-integration-name>
+    scoop update <manifest-name>
     # examples:
     scoop update galaxy-steam
     scoop update galaxy-uplay
