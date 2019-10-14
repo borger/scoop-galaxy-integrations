@@ -18,8 +18,10 @@ Integration Platform                              | Manifest Name         |
 ***Community, Stores***                                                   |
 [Discord][discord]                                | `galaxy-discord`      |
 [Humble Bundle][humble]                           | `galaxy-humble`       |
+[Twitch.tv][twitch]                               | `galaxy-twitch`       |
 [Wargaming.net][wargaming]                        | `galaxy-wargaming`    |
 ***Community, Games***                                                    |
+[Minecraft][minecraft]                            | `galaxy-minecraft`    |
 [Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
 ***Community, Emulators***                                                |
 [Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
@@ -35,7 +37,9 @@ Integration Platform                              | Manifest Name         |
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
 [bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
 [humble]: https://github.com/UncleGoogle/galaxy-integration-humblebundle "Maintainted by @UncleGoogle"
+[minecraft]: https://github.com/TouwaStar/Galaxy_Plugin_Minecraft "Maintainted by @TouwaStar"
 [pathofexile]: https://github.com/nyash-qq/galaxy-plugin-poe "Maintainted by @nyash-qq"
+[twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
 [wargaming]: https://github.com/Mixaill/galaxy-integration-wargaming "Maintainted by @Mixaill"
 [3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
 [ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintainted by @JTNDev"
@@ -101,6 +105,9 @@ If you're like me and don't want to remember commands, or even to update, you ca
     scoop update
     scoop update *
 This bucket is immediately updated once the included integrations get a newer version.
+
+## Need Emulators?
+I've also created a scoop bucket for emulators, visit https://github.com/borger/scoop-emulators for more details.
 
 ## Contributing
 Thank you for considering contributing to the Galaxy Integrations Scoop Bucket! You may propose new features or improvements of existing bucket behavior in the GitHub issue board. If you propose a new feature, please be willing to implement at least some of the code that would be needed to complete the feature.
