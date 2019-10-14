@@ -21,6 +21,7 @@ Integration Platform                              | Manifest Name         |
 [Twitch.tv][twitch]                               | `galaxy-twitch`       |
 [Wargaming.net][wargaming]                        | `galaxy-wargaming`    |
 ***Community, Games***                                                    |
+[Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
 [Minecraft][minecraft]                            | `galaxy-minecraft`    |
 [Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
 ***Community, Emulators***                                                |
@@ -37,6 +38,7 @@ Integration Platform                              | Manifest Name         |
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
 [bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
 [humble]: https://github.com/UncleGoogle/galaxy-integration-humblebundle "Maintainted by @UncleGoogle"
+[ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
 [minecraft]: https://github.com/TouwaStar/Galaxy_Plugin_Minecraft "Maintainted by @TouwaStar"
 [pathofexile]: https://github.com/nyash-qq/galaxy-plugin-poe "Maintainted by @nyash-qq"
 [twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
