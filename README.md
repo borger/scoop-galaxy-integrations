@@ -22,6 +22,7 @@ Integration Platform                              | Manifest Name         |
 [Wargaming.net][wargaming]                        | `galaxy-wargaming`    |
 ***Community, Games***                                                    |
 [Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
+[Guild Wars 2][gw2]                               | `galaxy-gw2`          |
 [Minecraft][minecraft]                            | `galaxy-minecraft`    |
 [Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
 ***Community, Emulators***                                                |
@@ -39,6 +40,7 @@ Integration Platform                              | Manifest Name         |
 [bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
 [humble]: https://github.com/UncleGoogle/galaxy-integration-humblebundle "Maintainted by @UncleGoogle"
 [ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
+[gw2]: https://github.com/Mixaill/galaxy-integration-gw2 "Maintainted by @Mixaill"
 [minecraft]: https://github.com/TouwaStar/Galaxy_Plugin_Minecraft "Maintainted by @TouwaStar"
 [pathofexile]: https://github.com/nyash-qq/galaxy-plugin-poe "Maintainted by @nyash-qq"
 [twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
