@@ -3,7 +3,7 @@
 There's no easy way to keep track of all existing galaxy integrations out there and keep them up-to-date. [Scoop](http://scoop.sh) helps you get the programs you need, with a minimal amount of point-and-clicking. It's highly scalable and easily customized. It's almost like a package manager our *NIX friends know and love. It makes it easy to download, install, update and uninstall apps on your computer, as easy as `scoop install <app-name>`, cool right? I've always struggled to get my galaxy integrations in the latest version, there's just so many!
 
 ## Integrations Available in this Bucket
-The list below contains only the integrations available in this scoop, if you are looking for more integrations to be manually installed or to be added to this bucket, check the full list at [awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy).
+The list below contains only the integrations available in this scoop which were selected based on the GOG Galaxy's [available platforms](https://github.com/gogcom/galaxy-integrations-python-api/blob/master/PLATFORM_IDs.md), if you are looking for more integrations to be manually installed or to be added to this bucket, check the full list at [awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy).
 
 Integration Platform                              | Manifest Name         |
 ------------------------------------------------- | ----------------------|
