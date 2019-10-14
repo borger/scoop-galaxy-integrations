@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Ertego/gog-galaxy-discord",
-    "version": "0.00",
+    "version": "0.1",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases/download/v0.40/windows.zip",
-    "hash": "ec19dd87fb8b95361f3366bde5dbb154e7a238c39f576cce037f72a999375963",
+    "url": "https://github.com/Ertego/gog-galaxy-discord/releases/download/0.1/discord.zip",
+    "hash": "ef13aaf3067fa845fd3d168aa2dc1a069d61112ede189a02ba020d40b8c0913b",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\discord\").Delete()"
