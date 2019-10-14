@@ -5,6 +5,10 @@
     "url": "https://github.com/nyash-qq/galaxy-plugin-twitch/releases/download/0.4/twitch_8b831aed-dd5f-c0c5-c843-41f9751f67a2_v0.4_win32.zip",
     "hash": "a7fbe9b33a478dc430af5773cf8b236d7d6d20d1b01f502ae0b5584efbaa5bff",
     "extract_to": "integration",
+    "notes": [
+        "NOTES/INSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
+        "    In order to use this plugin you have to be authenticated in Twitch App (https://www.twitch.tv/downloads)"
+    ],
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\twitch\").Delete()"
     },
