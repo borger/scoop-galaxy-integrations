@@ -4,13 +4,8 @@
     "depends": "sudo",
     "url": "https://github.com/TouwaStar/Galaxy_Plugin_Minecraft/archive/master.zip",
     "hash": "dd33deb2d2e2ef8bd91b61f4530c7e571e31487df782464224b18a4d6222b504",
-    "extract_dir": "minecraft_windows",
+    "extract_dir": "Galaxy_Plugin_Minecraft-master\\minecraft_windows",
     "extract_to": "integration",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\integration\\user_config.py\")) {",
-        "    New-Item \"$dir\\integration\\user_config.py\" -Type File | Out-Null",
-        "}"
-    ],
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\minecraft\").Delete()"
     },
@@ -72,7 +67,6 @@
         "    }",
         "}"
     ],
-    "persist": "integration\\user_config.py",
     "checkver": {
         "url": "https://github.com/TouwaStar/Galaxy_Plugin_Minecraft/commit/master",
         "re": "commit/(?<version>[a-fA-F0-9]{7})"
