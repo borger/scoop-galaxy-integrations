@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/nyash-qq/galaxy-plugin-poe",
-    "version": "0.0",
+    "version": "0.2",
     "depends": "sudo",
-    "url": "",
-    "hash": "",
+    "url": "https://github.com/nyash-qq/galaxy-plugin-poe/files/3555958/pathofexile_52d06761-1c23-d725-9720-57ee0b8b14bc_v0.2_win32.zip",
+    "hash": "d44057e0a008a39442b9ac3ac83f3de158e09fabf19bba75ca767c112831004a",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\pathofexile\").Delete()"
