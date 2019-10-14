@@ -6,11 +6,6 @@
     "hash": "4bbc2a24b91982114950b9e987eca1762501d93315161167d69ec3f354a6f19c",
     "extract_dir": "dolphin_fc3e85e4-c66b-4310-96c0-8f95cc43e546",
     "extract_to": "integration",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\integration\\user_config.py\")) {",
-        "    New-Item \"$dir\\integration\\user_config.py\" -Type File | Out-Null",
-        "}"
-    ],
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nwii-dolphin\").Delete()"
     },
