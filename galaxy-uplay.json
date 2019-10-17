@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-uplay",
-    "version": "0.47",
+    "version": "0.48",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-uplay/releases/download/v0.47/windows.zip",
-    "hash": "f0fb9e495f9ab7e2dd14d0288b0a589a38059f094059c2ef2991964f03bc89b2",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-uplay/releases/download/v0.48/windows.zip",
+    "hash": "bd0c87b41db1def1f4cc0779053368d9f272c7e7c5a320c6a82b7485b152e488",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\uplay\").Delete()"
