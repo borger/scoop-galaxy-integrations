@@ -12,6 +12,7 @@ Integration Platform                              | Manifest Name         |
 [Bethesda.net][bethesda]                          | `galaxy-bethesda`     |
 [Epic Games Store][epic]                          | `galaxy-epic`         |
 [Origin][origin]                                  | `galaxy-origin`       |
+[Paradox Plaza][paradox]                          | `galaxy-paradox`      |
 [PSN][psn]                                        | `galaxy-psn`          |
 [Steam][steam]                                    | `galaxy-steam`        |
 [Uplay][uplay]                                    | `galaxy-uplay`        |
@@ -36,6 +37,7 @@ Integration Platform                              | Manifest Name         |
 [battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet "Friends of Galaxy"
 [epic]: https://github.com/FriendsOfGalaxy/galaxy-integration-epic "Friends of Galaxy"
 [origin]: https://github.com/FriendsOfGalaxy/galaxy-integration-origin "Friends of Galaxy"
+[paradox]: https://github.com/FriendsOfGalaxy/galaxy-integration-paradox "Friends of Galaxy"
 [psn]: https://github.com/FriendsOfGalaxy/galaxy-integration-psn "Friends of Galaxy"
 [steam]: https://github.com/FriendsOfGalaxy/galaxy-integration-steam "Friends of Galaxy"
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
