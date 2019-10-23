@@ -25,7 +25,7 @@ Integration Platform                              | Manifest Name         |
 [Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
 [Guild Wars 2][gw2]                               | `galaxy-gw2`          |
 [Minecraft][minecraft]                            | `galaxy-minecraft`    |
-[Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
+[Path of Exile][pathofexile]                      | `galaxy-pathofexile`  |
 ***Community, Emulators***                                                |
 [Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
 [Nintendo 64 (RetroArch)][n64]                    | `galaxy-n64`          |
