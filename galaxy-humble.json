@@ -6,6 +6,7 @@
     "hash": "53bca1d4273b93f4f2d234856e56568185d9cf5748b1650dbe9d7b20134a303e",
     "extract_dir": "humblebundle_0.4.1",
     "extract_to": "integration",
+    "persist": ["integration\\config.ini"],
     "uninstaller": {
         "script": [
             "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\humble\").Delete()"
@@ -67,7 +68,8 @@
         "    } else {",
         "        Write-Host \"Oops! Something's not right. The $app integration was installed, but the symlink was not possible.\" -f Red",
         "    }",
-        "}"
+        "}",
+        "Write-Host \"This plugin has a config file located here: $persist_dir\\integration\\config.ini\" -f Magenta"
     ],
     "checkver": {
         "github": "https://github.com/UncleGoogle/galaxy-integration-humblebundle"
