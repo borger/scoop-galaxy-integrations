@@ -68,7 +68,8 @@
         "    } else {",
         "        Write-Host \"Oops! Something's not right. The $app integration was installed, but the symlink was not possible.\" -f Red",
         "    }",
-        "}"
+        "}",
+        "Write-Host \"This plugin has a config file located here: $persist_dir\\integration\\config.ini\" -f Yellow"
     ],
     "checkver": {
         "github": "https://github.com/UncleGoogle/galaxy-integration-humblebundle"
