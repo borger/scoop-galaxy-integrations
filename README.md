@@ -14,7 +14,7 @@ Integration Platform                              | Manifest Name         |
 [Origin][origin]                                  | `galaxy-origin`       |
 [Paradox Plaza][paradox]                          | `galaxy-paradox`      |
 [PSN][psn]                                        | `galaxy-psn`          |
-[Rockstar Games Launcher][rockstar]               | `galaxy-rockstar`     |
+[Rockstar][rockstar]                              | `galaxy-rockstar`     |
 [Steam][steam]                                    | `galaxy-steam`        |
 [Uplay][uplay]                                    | `galaxy-uplay`        |
 ***Community, Stores***                                                   |
