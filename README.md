@@ -14,6 +14,7 @@ Integration Platform                              | Manifest Name         |
 [Origin][origin]                                  | `galaxy-origin`       |
 [Paradox Plaza][paradox]                          | `galaxy-paradox`      |
 [PSN][psn]                                        | `galaxy-psn`          |
+[Rockstar Games Launcher][rockstar]               | `galaxy-rockstar`     |
 [Steam][steam]                                    | `galaxy-steam`        |
 [Uplay][uplay]                                    | `galaxy-uplay`        |
 ***Community, Stores***                                                   |
@@ -39,6 +40,7 @@ Integration Platform                              | Manifest Name         |
 [origin]: https://github.com/FriendsOfGalaxy/galaxy-integration-origin "Friends of Galaxy"
 [paradox]: https://github.com/FriendsOfGalaxy/galaxy-integration-paradox "Friends of Galaxy"
 [psn]: https://github.com/FriendsOfGalaxy/galaxy-integration-psn "Friends of Galaxy"
+[rockstar]: https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar "Friends of Galaxy"
 [steam]: https://github.com/FriendsOfGalaxy/galaxy-integration-steam "Friends of Galaxy"
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
 [bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
@@ -110,7 +112,7 @@ To update a specific galaxy integration via scoop, run
     scoop update galaxy-uplay
 
 #### Automating Updates
-If you're like me and don't want to remember commands, or even to update, you can very simply create a PowerShell script and perhaps even add it to Windows' Task Scheduler, to run daily or in your preferred schedule. The script contents would just be:
+If you're like me and don't want to remember commands, or even to update, you can very simply create a PowerShell script and perhaps even add it to Windows Task Scheduler, to run daily or in your preferred schedule. The script contents would just be:
 
     scoop update
     scoop update *
