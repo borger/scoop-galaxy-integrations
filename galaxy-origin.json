@@ -1,14 +1,12 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
-    "version": "0.29",
+    "version": "0.30",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v0.29/windows.zip",
-    "hash": "714bbbddfa5ea500e680088291710da349babc2488eefec7ab4e6194c4d9b0af",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v0.30/windows.zip",
+    "hash": "e9e5c0d665f29b59c4ff4b1f21024d7575a1b90f30ddebda8029dd9465169928",
     "extract_to": "integration",
     "uninstaller": {
-        "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\origin\").Delete()"
-        ]
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\origin\").Delete()"
     },
     "post_install": [
         "$integration = \"origin\"",
