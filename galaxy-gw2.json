@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/Mixaill/galaxy-integration-gw2",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2",
     "version": "0.2.6",
     "depends": "sudo",
     "url": "https://github.com/Mixaill/galaxy-integration-gw2/archive/v0.2.6.zip",
@@ -68,10 +68,10 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/Mixaill/galaxy-integration-gw2"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2",
+        "re": "Version v(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Mixaill/galaxy-integration-gw2/archive/v$version.zip",
-        "extract_dir": "galaxy-integration-gw2-$version"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2/releases/download/v$version/windows.zip"
     }
 }
