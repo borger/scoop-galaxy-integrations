@@ -11,9 +11,11 @@ Integration Platform                              | Manifest Name         |
 [Battle.net][battlenet]                           | `galaxy-battlenet`    |
 [Bethesda.net][bethesda]                          | `galaxy-bethesda`     |
 [Epic Games Store][epic]                          | `galaxy-epic`         |
+[Guild Wars 2][gw2]                               | `galaxy-gw2`          |
 [Origin][origin]                                  | `galaxy-origin`       |
-[Paradox Plaza][paradox]                          | `galaxy-paradox`      |
+[Paradox][paradox]                                | `galaxy-paradox`      |
 [PSN][psn]                                        | `galaxy-psn`          |
+[Rockstar][rockstar]                              | `galaxy-rockstar`     |
 [Steam][steam]                                    | `galaxy-steam`        |
 [Uplay][uplay]                                    | `galaxy-uplay`        |
 ***Community, Stores***                                                   |
@@ -23,9 +25,8 @@ Integration Platform                              | Manifest Name         |
 [Wargaming.net][wargaming]                        | `galaxy-wargaming`    |
 ***Community, Games***                                                    |
 [Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
-[Guild Wars 2][gw2]                               | `galaxy-gw2`          |
 [Minecraft][minecraft]                            | `galaxy-minecraft`    |
-[Path of Exile][pathofexile]                      | `galaxy-pathtoexile`  |
+[Path of Exile][pathofexile]                      | `galaxy-pathofexile`  |
 ***Community, Emulators***                                                |
 [Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
 [Nintendo 64 (RetroArch)][n64]                    | `galaxy-n64`          |
@@ -35,27 +36,28 @@ Integration Platform                              | Manifest Name         |
 [Nintendo Wii U (Cemu)][nwiiu]                    | `galaxy-nwiiu-cemu`   |
 
 [battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet "Friends of Galaxy"
+[bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
 [epic]: https://github.com/FriendsOfGalaxy/galaxy-integration-epic "Friends of Galaxy"
+[gw2]: https://github.com/FriendsOfGalaxy/galaxy-integration-gw2 "Friends of Galaxy"
 [origin]: https://github.com/FriendsOfGalaxy/galaxy-integration-origin "Friends of Galaxy"
 [paradox]: https://github.com/FriendsOfGalaxy/galaxy-integration-paradox "Friends of Galaxy"
 [psn]: https://github.com/FriendsOfGalaxy/galaxy-integration-psn "Friends of Galaxy"
+[rockstar]: https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar "Friends of Galaxy"
 [steam]: https://github.com/FriendsOfGalaxy/galaxy-integration-steam "Friends of Galaxy"
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
-[bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
+[discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
 [humble]: https://github.com/UncleGoogle/galaxy-integration-humblebundle "Maintainted by @UncleGoogle"
-[ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
-[gw2]: https://github.com/Mixaill/galaxy-integration-gw2 "Maintainted by @Mixaill"
-[minecraft]: https://github.com/TouwaStar/Galaxy_Plugin_Minecraft "Maintainted by @TouwaStar"
-[pathofexile]: https://github.com/nyash-qq/galaxy-plugin-poe "Maintainted by @nyash-qq"
 [twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
 [wargaming]: https://github.com/Mixaill/galaxy-integration-wargaming "Maintainted by @Mixaill"
+[ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
+[minecraft]: https://github.com/TouwaStar/Galaxy_Plugin_Minecraft "Maintainted by @TouwaStar"
+[pathofexile]: https://github.com/nyash-qq/galaxy-plugin-poe "Maintainted by @nyash-qq"
 [3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
 [n64]: https://github.com/Riku55/galaxy-integration-n64-RetroArch- "Maintained by @Riku55"
 [nds]: https://github.com/TBemme/galaxy-integration-nds "Maintainted by @TBemme"
 [ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintainted by @JTNDev"
 [nwii]: https://github.com/JTNDev/galaxy-integration-wii "Maintainted by @JTNDev"
 [nwiiu]: https://github.com/LeonardFiedrowicz/galaxy-integration-cemu "Maintained by @LeonardFiedrowicz"
-[discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
 
 ## Installation
 #### Installing Scoop
@@ -110,7 +112,7 @@ To update a specific galaxy integration via scoop, run
     scoop update galaxy-uplay
 
 #### Automating Updates
-If you're like me and don't want to remember commands, or even to update, you can very simply create a PowerShell script and perhaps even add it to Windows' Task Scheduler, to run daily or in your preferred schedule. The script contents would just be:
+If you're like me and don't want to remember commands, or even to update, you can very simply create a PowerShell script and perhaps even add it to Windows Task Scheduler, to run daily or in your preferred schedule. The script contents would just be:
 
     scoop update
     scoop update *

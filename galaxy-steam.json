@@ -1,14 +1,12 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam",
-    "version": "0.32",
+    "version": "0.33",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam/releases/download/v0.32/windows.zip",
-    "hash": "42da24bcaecf3a46699059e34a0e302acaa93501fa486b1c06b63f06667e4224",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam/releases/download/v0.33/windows.zip",
+    "hash": "02e6c0535cde39c45f5c4f836f8ad56b77860ac4d7306d305661c89c1dea3943",
     "extract_to": "integration",
     "uninstaller": {
-        "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\steam\").Delete()"
-        ]
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\steam\").Delete()"
     },
     "post_install": [
         "$integration = \"steam\"",
