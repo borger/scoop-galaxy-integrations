@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/UncleGoogle/galaxy-integration-humblebundle",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble",
     "version": "0.4.1",
     "depends": "sudo",
     "url": "https://github.com/UncleGoogle/galaxy-integration-humblebundle/releases/download/v0.4.1/humblebundle_0.4.1.zip",
@@ -72,10 +72,10 @@
         "Write-Host \"This plugin has a config file located here: $persist_dir\\integration\\config.ini\" -f Magenta"
     ],
     "checkver": {
-        "github": "https://github.com/UncleGoogle/galaxy-integration-humblebundle"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble",
+        "re": "Version v(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/UncleGoogle/galaxy-integration-humblebundle/releases/download/v$version/humblebundle_$version.zip",
-        "extract_dir": "humblebundle_$version"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/v$version/windows.zip"
     }
 }
