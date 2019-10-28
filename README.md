@@ -12,6 +12,7 @@ Integration Platform                              | Manifest Name         |
 [Bethesda.net][bethesda]                          | `galaxy-bethesda`     |
 [Epic Games Store][epic]                          | `galaxy-epic`         |
 [Guild Wars 2][gw2]                               | `galaxy-gw2`          |
+[Humble Bundle][humble]                           | `galaxy-humble`       |
 [Origin][origin]                                  | `galaxy-origin`       |
 [Paradox][paradox]                                | `galaxy-paradox`      |
 [PSN][psn]                                        | `galaxy-psn`          |
@@ -20,7 +21,6 @@ Integration Platform                              | Manifest Name         |
 [Uplay][uplay]                                    | `galaxy-uplay`        |
 ***Community, Stores***                                                   |
 [Discord][discord]                                | `galaxy-discord`      |
-[Humble Bundle][humble]                           | `galaxy-humble`       |
 [Twitch.tv][twitch]                               | `galaxy-twitch`       |
 [Wargaming.net][wargaming]                        | `galaxy-wargaming`    |
 ***Community, Games***                                                    |
@@ -39,6 +39,7 @@ Integration Platform                              | Manifest Name         |
 [bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
 [epic]: https://github.com/FriendsOfGalaxy/galaxy-integration-epic "Friends of Galaxy"
 [gw2]: https://github.com/FriendsOfGalaxy/galaxy-integration-gw2 "Friends of Galaxy"
+[humble]: https://github.com/FriendsOfGalaxy/galaxy-integration-humble "Friends of Galaxy"
 [origin]: https://github.com/FriendsOfGalaxy/galaxy-integration-origin "Friends of Galaxy"
 [paradox]: https://github.com/FriendsOfGalaxy/galaxy-integration-paradox "Friends of Galaxy"
 [psn]: https://github.com/FriendsOfGalaxy/galaxy-integration-psn "Friends of Galaxy"
@@ -46,7 +47,6 @@ Integration Platform                              | Manifest Name         |
 [steam]: https://github.com/FriendsOfGalaxy/galaxy-integration-steam "Friends of Galaxy"
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
 [discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
-[humble]: https://github.com/UncleGoogle/galaxy-integration-humblebundle "Maintainted by @UncleGoogle"
 [twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
 [wargaming]: https://github.com/Mixaill/galaxy-integration-wargaming "Maintainted by @Mixaill"
 [ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
