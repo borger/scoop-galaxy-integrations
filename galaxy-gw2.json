@@ -1,10 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "depends": "sudo",
-    "url": "https://github.com/Mixaill/galaxy-integration-gw2/archive/v0.2.6.zip",
-    "hash": "9c8390a97fe27a37dbfdcdb079cf5848d1d18b1a5367b5cc43703e3f414a4edd",
-    "extract_dir": "galaxy-integration-gw2-0.2.6",
+    "url": "https://github.com/Mixaill/galaxy-integration-gw2/releases/download/v0.2.7/galaxy-integration-gw2_v0.2.7.zip",
+    "hash": "EDBA8CBA19C72F95D5B980520100B1CFED6FCFF83C8E2BD44F6685E40D8043A1",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\gw2\").Delete()"
