@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar",
-    "version": "0.2",
+    "version": "0.2.1",
     "depends": "sudo",
-    "url": "https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar/releases/download/v0.2/plugin.zip",
-    "hash": "87E4639054699801018FDF61D14FDF3A77472A2E26EB66DC9BA79B10578182DC",
+    "url": "https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar/releases/download/v0.2.1/plugin.zip",
+    "hash": "9975C472B3D0D4155662DBEECD102D1839E797A57BB9A6CC3D610D5913AF70C5",
     "extract_to": "integration",
     "extract_dir": "Rockstar",
     "uninstaller": {
