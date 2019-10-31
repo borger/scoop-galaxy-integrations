@@ -1,16 +1,13 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble",
-    "version": "0.4.1",
+    "version": "0.5.0",
     "depends": "sudo",
-    "url": "https://github.com/UncleGoogle/galaxy-integration-humblebundle/releases/download/v0.4.1/humblebundle_0.4.1.zip",
-    "hash": "53bca1d4273b93f4f2d234856e56568185d9cf5748b1650dbe9d7b20134a303e",
-    "extract_dir": "humblebundle_0.4.1",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/0.5.0/windows.zip",
+    "hash": "c4254b091f9399520bd722ae3e5bcd7adb1427292e147b7dab05191924d339e5",
     "extract_to": "integration",
-    "persist": ["integration\\config.ini"],
+    "persist": "integration\\config.ini",
     "uninstaller": {
-        "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\humble\").Delete()"
-        ]
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\humble\").Delete()"
     },
     "post_install": [
         "$integration = \"humble\"",
@@ -72,10 +69,9 @@
         "Write-Host \"This plugin has a config file located here: $persist_dir\\integration\\config.ini\" -f Magenta"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/v$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/$version/windows.zip"
     }
 }
