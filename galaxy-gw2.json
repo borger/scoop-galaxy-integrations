@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "depends": "sudo",
-    "url": "https://github.com/Mixaill/galaxy-integration-gw2/releases/download/v0.2.7/galaxy-integration-gw2_v0.2.7.zip",
-    "hash": "EDBA8CBA19C72F95D5B980520100B1CFED6FCFF83C8E2BD44F6685E40D8043A1",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2/releases/download/0.2.8/windows.zip",
+    "hash": "a625a044ff404b83aa18310a2375e3a19ced4db89b48357cac440d6492748857",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\gw2\").Delete()"
@@ -67,10 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2/releases/download/v$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2/releases/download/$version/windows.zip"
     }
 }
