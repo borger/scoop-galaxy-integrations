@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/nyash-qq/galaxy-plugin-poe",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-pathofexile",
     "version": "0.2",
     "depends": "sudo",
     "url": "https://github.com/nyash-qq/galaxy-plugin-poe/files/3555958/pathofexile_52d06761-1c23-d725-9720-57ee0b8b14bc_v0.2_win32.zip",
@@ -67,9 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/nyash-qq/galaxy-plugin-poe"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-pathofexile"
     },
     "autoupdate": {
-        "url": "https://github.com/nyash-qq/galaxy-plugin-poe/files/3555958/pathofexile_52d06761-1c23-d725-9720-57ee0b8b14bc_v$version_win32.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-pathofexile/releases/download/$version/windows.zip"
     }
 }
