@@ -1,15 +1,12 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar",
-    "version": "0.2.1",
+    "version": "0.3",
     "depends": "sudo",
-    "url": "https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar/releases/download/v0.2.1/plugin.zip",
-    "hash": "9975C472B3D0D4155662DBEECD102D1839E797A57BB9A6CC3D610D5913AF70C5",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/0.3/windows.zip",
+    "hash": "c4605b2e138c96790ecd85986ea461cc3f7b6bbcaec27317ee158cc40c3732c4",
     "extract_to": "integration",
-    "extract_dir": "Rockstar",
     "uninstaller": {
-        "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\rockstar\").Delete()"
-        ]
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\rockstar\").Delete()"
     },
     "post_install": [
         "$integration = \"rockstar\"",
@@ -70,10 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/v$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/$version/windows.zip"
     }
 }
