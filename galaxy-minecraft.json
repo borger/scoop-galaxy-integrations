@@ -1,10 +1,9 @@
 {
-    "homepage": "https://github.com/TouwaStar/Galaxy_Plugin_Minecraft",
-    "version": "178d31b",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft",
+    "version": "0.5",
     "depends": "sudo",
-    "url": "https://github.com/TouwaStar/Galaxy_Plugin_Minecraft/archive/master.zip",
-    "hash": "dd33deb2d2e2ef8bd91b61f4530c7e571e31487df782464224b18a4d6222b504",
-    "extract_dir": "Galaxy_Plugin_Minecraft-master\\minecraft_windows",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/0.5/windows.zip",
+    "hash": "8685765a18a7e74f5ad44fa1e0ab74e805c6adcd0ccd2cde163a1587c1a203e1",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\minecraft\").Delete()"
@@ -68,10 +67,9 @@
         "}"
     ],
     "checkver": {
-        "url": "https://github.com/TouwaStar/Galaxy_Plugin_Minecraft/commit/master",
-        "re": "commit/(?<version>[a-fA-F0-9]{7})"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft"
     },
     "autoupdate": {
-        "url": "https://github.com/TouwaStar/Galaxy_Plugin_Minecraft/archive/master.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/$version/windows.zip"
     }
 }

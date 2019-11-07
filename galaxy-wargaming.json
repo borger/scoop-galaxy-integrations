@@ -1,10 +1,9 @@
 {
-    "homepage": "https://github.com/Mixaill/galaxy-integration-wargaming",
-    "version": "0.7.7",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming",
+    "version": "0.7.8",
     "depends": "sudo",
-    "url": "https://github.com/Mixaill/galaxy-integration-wargaming/archive/v0.7.7.zip",
-    "hash": "7979a0f024a30cd51c24bb48ffd34631036a4a1bf010ba3f87c50e0eeacd8bb2",
-    "extract_dir": "galaxy-integration-wargaming-0.7.7",
+    "url": "https://github.com/Mixaill/galaxy-integration-wargaming/archive/v0.7.8.zip",
+    "hash": "06aab6f4b5113084a940c429c94699acde7e4807d186390d22a6889cea7514d3",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\wargaming\").Delete()"
@@ -68,10 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/Mixaill/galaxy-integration-wargaming"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming"
     },
     "autoupdate": {
-        "url": "https://github.com/Mixaill/galaxy-integration-wargaming/archive/v$version.zip",
-        "extract_dir": "galaxy-integration-wargaming-$version"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/$version/windows.zip"
     }
 }
