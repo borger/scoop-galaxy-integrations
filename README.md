@@ -13,6 +13,7 @@ Integration Platform                              | Manifest Name         |
 [Epic Games Store][epic]                          | `galaxy-epic`         |
 [Guild Wars 2][gw2]                               | `galaxy-gw2`          |
 [Humble Bundle][humble]                           | `galaxy-humble`       |
+[Minecraft][minecraft]                            | `galaxy-minecraft`    |
 [Origin][origin]                                  | `galaxy-origin`       |
 [Paradox][paradox]                                | `galaxy-paradox`      |
 [PSN][psn]                                        | `galaxy-psn`          |
@@ -25,7 +26,6 @@ Integration Platform                              | Manifest Name         |
 [Wargaming.net][wargaming]                        | `galaxy-wargaming`    |
 ***Community, Games***                                                    |
 [Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
-[Minecraft][minecraft]                            | `galaxy-minecraft`    |
 [Path of Exile][pathofexile]                      | `galaxy-pathofexile`  |
 ***Community, Emulators***                                                |
 [Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
@@ -41,6 +41,7 @@ Integration Platform                              | Manifest Name         |
 [gw2]: https://github.com/FriendsOfGalaxy/galaxy-integration-gw2 "Friends of Galaxy"
 [humble]: https://github.com/FriendsOfGalaxy/galaxy-integration-humble "Friends of Galaxy"
 [origin]: https://github.com/FriendsOfGalaxy/galaxy-integration-origin "Friends of Galaxy"
+[minecraft]: https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft "Friends of Galaxy"
 [paradox]: https://github.com/FriendsOfGalaxy/galaxy-integration-paradox "Friends of Galaxy"
 [psn]: https://github.com/FriendsOfGalaxy/galaxy-integration-psn "Friends of Galaxy"
 [rockstar]: https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar "Friends of Galaxy"
@@ -50,7 +51,6 @@ Integration Platform                              | Manifest Name         |
 [twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
 [wargaming]: https://github.com/Mixaill/galaxy-integration-wargaming "Maintainted by @Mixaill"
 [ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
-[minecraft]: https://github.com/TouwaStar/Galaxy_Plugin_Minecraft "Maintainted by @TouwaStar"
 [pathofexile]: https://github.com/nyash-qq/galaxy-plugin-poe "Maintainted by @nyash-qq"
 [3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
 [n64]: https://github.com/Riku55/galaxy-integration-n64-RetroArch- "Maintained by @Riku55"
