@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/0.5.0/windows.zip",
-    "hash": "c4254b091f9399520bd722ae3e5bcd7adb1427292e147b7dab05191924d339e5",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/0.5.1/windows.zip",
+    "hash": "8125f6afc3196413c03c75bedc8dd4f91b80b646d827670f262c2bd2b2bb5fe3",
     "extract_to": "integration",
     "persist": "integration\\config.ini",
     "uninstaller": {
