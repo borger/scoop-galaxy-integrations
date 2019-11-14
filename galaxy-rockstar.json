@@ -3,7 +3,7 @@
     "version": "0.3.3",
     "depends": "sudo",
     "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/0.3.3/windows.zip",
-    "hash": "d5b5c69d3cb9a1d9bc5584addc298b701bf9cdb9883d22b0f79b17f473c473bb",
+    "hash": "e5bfe47881dedd56f0fdac4e052b39944d6ebb350e0220134cf213274200cb47",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\rockstar\").Delete()"
