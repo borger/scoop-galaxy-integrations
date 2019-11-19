@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet",
-    "version": "0.41",
+    "version": "0.42",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases/download/v0.41/windows.zip",
-    "hash": "945eedc4f0696797d5098a6c83393dd6068a38c8e27f5b8fddd64e184e45101d",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases/download/v0.42/windows.zip",
+    "hash": "5fa3c9e3cfb4cf348b07486f275772aa854089d5728aa46cc3f0a71478423a4d",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\battlenet\").Delete()"
