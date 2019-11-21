@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic",
-    "version": "0.44",
+    "version": "0.45",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic/releases/download/v0.44/windows.zip",
-    "hash": "89e17a3c16ea9c60127090061c891cd2bbeabe704f2b8656afa79170e0c912fd",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic/releases/download/v0.45/windows.zip",
+    "hash": "180dde0ee22f5d28937575bf6a9f619f83f4c823d5e2d41e9f9d3537fe789cdc",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\epic\").Delete()"
