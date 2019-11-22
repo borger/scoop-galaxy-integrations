@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming/releases/download/0.8.0/windows.zip",
-    "hash": "745f489106275ffef1fbf6f6505e6268dd405355df03da0740e7e0bf0ea0c31a",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming/releases/download/0.8.1/windows.zip",
+    "hash": "ea62be88049e15c137c52f00f64edf1b253dbd3b89c290647d570c15f955be6a",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\wargaming\").Delete()"
