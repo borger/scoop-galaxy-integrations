@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-paradox",
-    "version": "0.3",
+    "version": "0.4",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-paradox/releases/download/v0.3/windows.zip",
-    "hash": "50fe020c3b6670bebe703e45e00ebfe93c8d6888f241aa0fc31cd055604c30e6",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-paradox/releases/download/v0.4/windows.zip",
+    "hash": "2c81878a19c7b6b0b75df7f105d18c6f0f0b37c22d3aa910cfa537226f0fe734",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\paradox\").Delete()"
