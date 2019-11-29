@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/RZetko/galaxy-integration-ffxiv",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "depends": "sudo",
-    "url": "https://github.com/RZetko/galaxy-integration-ffxiv/releases/download/v1.1.1/galaxy-integration-ffxiv-1.1.1.zip",
-    "hash": "08bb54e0bd6743adf5ca800c013f5dd3bd4768db635c21a7a39de8a7beaa75b0",
+    "url": "https://github.com/RZetko/galaxy-integration-ffxiv/releases/download/v1.1.2/galaxy-integration-ffxiv-1.1.2.zip",
+    "hash": "df3e76025c9f8cf2fb34ec6c4d1674f5d81039feb4a446341cc65d8e5bb887ce",
     "extract_dir": "ffxiv",
     "extract_to": "integration",
     "uninstaller": {
