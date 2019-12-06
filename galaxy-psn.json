@@ -1,14 +1,12 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn",
-    "version": "0.24.1",
+    "version": "0.26",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v0.24.1/windows.zip",
-    "hash": "33c51819c2afd0d1f8491fbc09558c190c5995b32320b39d796350460b1ac410",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v0.26/windows.zip",
+    "hash": "4d6a1b4edc013041b86b5552c88d69c48e12e3f2489e6c0f48a4c4928282a0f1",
     "extract_to": "integration",
     "uninstaller": {
-        "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\psn\").Delete()"
-        ]
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\psn\").Delete()"
     },
     "post_install": [
         "$integration = \"psn\"",
