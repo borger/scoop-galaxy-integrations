@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda",
-    "version": "0.181",
+    "version": "0.182",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/0.181/windows.zip",
-    "hash": "8ceca8dc608845b245a402d6923d9988f3ac17af0e520d91d9c945bb6bc64e3f",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/0.182/windows.zip",
+    "hash": "e006aa1022419437c337055ffff1cbfc6a5724b0110f9142a5dd145bf6e5fd8f",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\bethesda\").Delete()"
