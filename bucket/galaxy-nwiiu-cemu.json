@@ -1,15 +1,13 @@
 {
     "homepage": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu",
-    "version": "1.0",
+    "version": "1.1",
     "depends": "sudo",
-    "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v1.0/galaxy-integration-cemu.zip",
-    "hash": "6d8bf3d5473eb64d98bf9ff6769fc3ea29fd971f52871104e5ad4d7582fa53b2",
+    "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v1.1/galaxy-integration-cemu.zip",
+    "hash": "b06a0ee33576c20bfcb9bb83632b8cf30c6bf2060da72fc5fcf302d4c089db7c",
     "extract_dir": "galaxy-integration-cemu",
     "extract_to": "integration",
     "uninstaller": {
-        "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nwiiu-cemu\").Delete()"
-        ]
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nwiiu-cemu\").Delete()"
     },
     "post_install": [
         "$integration = \"nwiiu-cemu\"",
