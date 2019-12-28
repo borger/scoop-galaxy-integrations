@@ -1,16 +1,17 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn",
-    "version": "0.26",
+    "homepage": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu",
+    "version": "1.1",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v0.26/windows.zip",
-    "hash": "4d6a1b4edc013041b86b5552c88d69c48e12e3f2489e6c0f48a4c4928282a0f1",
+    "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v1.1/galaxy-integration-cemu.zip",
+    "hash": "b06a0ee33576c20bfcb9bb83632b8cf30c6bf2060da72fc5fcf302d4c089db7c",
+    "extract_dir": "galaxy-integration-cemu",
     "extract_to": "integration",
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\psn\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nwiiu-cemu\").Delete()"
     },
     "post_install": [
-        "$integration = \"psn\"",
-        "$wildcard = \"*psn*\"",
+        "$integration = \"nwiiu-cemu\"",
+        "$wildcard = \"*nwiiu*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,10 +68,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "github": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v$version/windows.zip"
+        "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v$version/galaxy-integration-cemu.zip"
     }
 }

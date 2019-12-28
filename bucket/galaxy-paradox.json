@@ -1,21 +1,16 @@
 {
-    "homepage": "https://github.com/JTNDev/galaxy-integration-wii",
-    "version": "0.4.0",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-paradox",
+    "version": "0.5",
     "depends": "sudo",
-    "url": "https://github.com/JTNDev/galaxy-integration-wii/releases/download/v0.4.0/galaxy-integration-wii.7z",
-    "hash": "a731da3284f6e9246fe8e5bf18317d958cb98584dd97f2278d0b8620ddafe230",
-    "extract_dir": "dolphin_fc3e85e4-c66b-4310-96c0-8f95cc43e546",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-paradox/releases/download/v0.5/windows.zip",
+    "hash": "eaa7ad2373ad41401f1144ee21eac552e2cf9e20be20f9f209f804a7624db362",
     "extract_to": "integration",
-    "notes": [
-        "COMPATIBLE EMULATORS:",
-        "RetroArch, Dolphin"
-    ],
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nwii\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\paradox\").Delete()"
     },
     "post_install": [
-        "$integration = \"nwii\"",
-        "$wildcard = \"*nwii-*\"",
+        "$integration = \"paradox\"",
+        "$wildcard = \"*paradox*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -71,12 +66,11 @@
         "    }",
         "}"
     ],
-    "persist": "integration\\user_config.py",
     "checkver": {
-        "github": "https://github.com/JTNDev/galaxy-integration-wii",
-        "re": "/releases/download/v([\\d.]+)/(?<file>(galaxy-integration-wii(-)?|Wii.Dolphin.|Dolphin.Wii.Plugin.|Dolphin-Wii-Galaxy-2.0-Plugin-)(v)?([\\d.]+)?.(zip|7z))"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-paradox",
+        "re": "Version v(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/JTNDev/galaxy-integration-wii/releases/download/v$version/$matchFile"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-paradox/releases/download/v$version/windows.zip"
     }
 }

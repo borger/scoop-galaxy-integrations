@@ -1,16 +1,16 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar",
-    "version": "0.3.6",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn",
+    "version": "0.27",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/0.3.6/windows.zip",
-    "hash": "7d5f4068df6a997673c075a02b4669295315852ab43e658d5cfa046c81c56495",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v0.27/windows.zip",
+    "hash": "8789596b5f8b4972d81dd4ffcd25e802fa8e422169678991fdd8e22fe79fafa6",
     "extract_to": "integration",
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\rockstar\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\psn\").Delete()"
     },
     "post_install": [
-        "$integration = \"rockstar\"",
-        "$wildcard = \"*rockstar*\"",
+        "$integration = \"psn\"",
+        "$wildcard = \"*psn*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,9 +67,10 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn",
+        "re": "Version v(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-psn/releases/download/v$version/windows.zip"
     }
 }

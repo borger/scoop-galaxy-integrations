@@ -1,16 +1,16 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda",
-    "version": "0.177",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
+    "version": "0.33",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/0.177/windows.zip",
-    "hash": "e44f1a24aa36789a9035e0aa3132debdff94330719e4275547c76482dcf46f11",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v0.33/windows.zip",
+    "hash": "9e0a2364ecce41d8898717a14821a1c8a6b189907748d2aca3124f04aa695d12",
     "extract_to": "integration",
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\bethesda\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\origin\").Delete()"
     },
     "post_install": [
-        "$integration = \"bethesda\"",
-        "$wildcard = \"*bethesda*\"",
+        "$integration = \"origin\"",
+        "$wildcard = \"*origin*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,9 +67,10 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
+        "re": "Version v(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v$version/windows.zip"
     }
 }

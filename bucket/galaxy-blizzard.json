@@ -1,16 +1,16 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
-    "version": "0.32",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard",
+    "version": "1.0",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v0.32/windows.zip",
-    "hash": "0b191e2b525a9c89a7179a8fcbaf9a92aa52e82656074d0c8d70a99eb6cfdf57",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard/releases/download/1.0/windows.zip",
+    "hash": "7c1d3977c356ed6a4865246b65697a5e83647eea1b8d1a24bf7401be1030637f",
     "extract_to": "integration",
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\origin\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\blizzard\").Delete()"
     },
     "post_install": [
-        "$integration = \"origin\"",
-        "$wildcard = \"*origin*\"",
+        "$integration = \"blizzard\"",
+        "$wildcard = \"*blizzard*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,10 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard/releases/download/$version/windows.zip"
     }
 }

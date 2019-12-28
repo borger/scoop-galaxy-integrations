@@ -1,19 +1,16 @@
 {
-    "homepage": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu",
-    "version": "1.0",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda",
+    "version": "0.183",
     "depends": "sudo",
-    "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v1.0/galaxy-integration-cemu.zip",
-    "hash": "6d8bf3d5473eb64d98bf9ff6769fc3ea29fd971f52871104e5ad4d7582fa53b2",
-    "extract_dir": "galaxy-integration-cemu",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/0.183/windows.zip",
+    "hash": "c40e1f390b579659403f546383c1068589e6c2141eac306703c011435e5eb37e",
     "extract_to": "integration",
     "uninstaller": {
-        "script": [
-            "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nwiiu-cemu\").Delete()"
-        ]
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\bethesda\").Delete()"
     },
     "post_install": [
-        "$integration = \"nwiiu-cemu\"",
-        "$wildcard = \"*nwiiu*\"",
+        "$integration = \"bethesda\"",
+        "$wildcard = \"*bethesda*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -70,9 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda"
     },
     "autoupdate": {
-        "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v$version/galaxy-integration-cemu.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda/releases/download/$version/windows.zip"
     }
 }

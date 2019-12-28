@@ -1,16 +1,16 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam",
-    "version": "0.38.2",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft",
+    "version": "0.6",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam/releases/download/v0.38.2/windows.zip",
-    "hash": "f1fb886c5fc1e4ab4599a561d5a14f5f7058f5ed309d7f450dbfbe332cb74987",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/0.6/windows.zip",
+    "hash": "bd9e8b9a8d382be5c0c6d6307b588703195025c264268e3697c47e2c7d3330c8",
     "extract_to": "integration",
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\steam\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\minecraft\").Delete()"
     },
     "post_install": [
-        "$integration = \"steam\"",
-        "$wildcard = \"*steam*\"",
+        "$integration = \"minecraft\"",
+        "$wildcard = \"*minecraft*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,10 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam/releases/download/v$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/$version/windows.zip"
     }
 }

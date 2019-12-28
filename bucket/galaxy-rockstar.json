@@ -1,16 +1,16 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming",
-    "version": "0.8.1",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar",
+    "version": "0.4",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming/releases/download/0.8.1/windows.zip",
-    "hash": "ea62be88049e15c137c52f00f64edf1b253dbd3b89c290647d570c15f955be6a",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/0.4/windows.zip",
+    "hash": "4b287fd64ece6cd8fc49d7521523fd6caaadddbeda1fcadd097a55da932e9ed9",
     "extract_to": "integration",
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\wargaming\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\rockstar\").Delete()"
     },
     "post_install": [
-        "$integration = \"wargaming\"",
-        "$wildcard = \"*war*gaming*\"",
+        "$integration = \"rockstar\"",
+        "$wildcard = \"*rockstar*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,9 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming/releases/download/$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/$version/windows.zip"
     }
 }

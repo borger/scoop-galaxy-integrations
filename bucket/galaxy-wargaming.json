@@ -1,16 +1,16 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft",
-    "version": "0.5",
+    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming",
+    "version": "0.8.2",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/0.5/windows.zip",
-    "hash": "8685765a18a7e74f5ad44fa1e0ab74e805c6adcd0ccd2cde163a1587c1a203e1",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming/releases/download/0.8.2/windows.zip",
+    "hash": "3299f9a747c1b8c6755fdd7253f31e13d1ea128cf07eee6661eda7355a424dae",
     "extract_to": "integration",
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\minecraft\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\wargaming\").Delete()"
     },
     "post_install": [
-        "$integration = \"minecraft\"",
-        "$wildcard = \"*minecraft*\"",
+        "$integration = \"wargaming\"",
+        "$wildcard = \"*war*gaming*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,9 +67,9 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft"
+        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/$version/windows.zip"
+        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming/releases/download/$version/windows.zip"
     }
 }
