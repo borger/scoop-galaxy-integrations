@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard/releases/download/1.0.1/windows.zip",
-    "hash": "0484dbebcf557c0316eb16c50cc02d29d587c3daaf90e0f6ed6bf1ca1c557450",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard/releases/download/1.0.2/windows.zip",
+    "hash": "efa3fe25da9a9c7f27e090515a1098e6925cd0839cf2b3c94f2550ee009e0ca2",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\blizzard\").Delete()"
