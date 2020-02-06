@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/t73vx474d82sqk86?svg=true)](https://ci.appveyor.com/project/borger/scoop-galaxy-integrations) [![Repo size](https://img.shields.io/github/repo-size/borger/scoop-galaxy-integrations.svg)](https://github.com/borger/scoop-galaxy-integrations)
 ## GOG Galaxy 2 Integrations Scoop Bucket
 
 There's no easy way to keep track of all existing galaxy integrations out there and keep them up-to-date. [Scoop](http://scoop.sh) helps you get the programs you need, with a minimal amount of point-and-clicking. It's highly scalable and easily customized. It's almost like a package manager our *NIX friends know and love. It makes it easy to download, install, update and uninstall apps on your computer, as easy as `scoop install <app-name>`, cool right? I've always struggled to get my galaxy integrations in the latest version, there's just so many!
