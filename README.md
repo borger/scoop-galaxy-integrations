@@ -9,9 +9,8 @@ The list below contains only the integrations available in this scoop which were
 Integration Platform                              | Manifest Name         |
 ------------------------------------------------- | ----------------------|
 ***Friends of Galaxy***                                                   |
-[Battle.net][battlenet]                           | `galaxy-battlenet`    |
 [Bethesda.net][bethesda]                          | `galaxy-bethesda`     |
-[Blizzard][blizzard]                              | `galaxy-blizzard`     |
+[Blizzard (Battle.net)][battlenet]                | `galaxy-battlenet`    |
 [Epic Games Store][epic]                          | `galaxy-epic`         |
 [Guild Wars 2][gw2]                               | `galaxy-gw2`          |
 [Humble Bundle][humble]                           | `galaxy-humble`       |
@@ -37,9 +36,8 @@ Integration Platform                              | Manifest Name         |
 [Nintendo Wii (RetroArch, Dolphin)][nwii]         | `galaxy-nwii`         |
 [Nintendo Wii U (Cemu)][nwiiu]                    | `galaxy-nwiiu-cemu`   |
 
-[battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet "Friends of Galaxy"
+[battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard "Friends of Galaxy"
 [bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
-[blizzard]: https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard "Friends of Galaxy"
 [epic]: https://github.com/FriendsOfGalaxy/galaxy-integration-epic "Friends of Galaxy"
 [gw2]: https://github.com/FriendsOfGalaxy/galaxy-integration-gw2 "Friends of Galaxy"
 [humble]: https://github.com/FriendsOfGalaxy/galaxy-integration-humble "Friends of Galaxy"
