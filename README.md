@@ -35,6 +35,7 @@ Integration Platform                              | Manifest Name         |
 [Nintendo GameCube (RetroArch, Dolphin)][ncube]   | `galaxy-ncube`        |
 [Nintendo Wii (RetroArch, Dolphin)][nwii]         | `galaxy-nwii`         |
 [Nintendo Wii U (Cemu)][nwiiu]                    | `galaxy-nwiiu-cemu`   |
+[Playstation 2 (PCSX2)][ps2]                      | `galaxy-ps2`   |
 
 [battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard "Friends of Galaxy"
 [bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
@@ -59,6 +60,7 @@ Integration Platform                              | Manifest Name         |
 [ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintainted by @JTNDev"
 [nwii]: https://github.com/JTNDev/galaxy-integration-wii "Maintainted by @JTNDev"
 [nwiiu]: https://github.com/LeonardFiedrowicz/galaxy-integration-cemu "Maintained by @LeonardFiedrowicz"
+[ps2]: https://github.com/AHCoder/galaxy-integration-ps2 "Maintained by @AHCoder"
 
 ## Installation
 #### Installing Scoop
