@@ -13,8 +13,8 @@
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\ps2\").Delete()"
     },
     "post_install": [
-        "$integration = \"ps2_1e814707-1fe3-4e1e-86fe-1b8d1b7fac2e\"",
-        "$wildcard = \"*ps2-*\"",
+        "$integration = \"ps2\"",
+        "$wildcard = \"*ps2*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
