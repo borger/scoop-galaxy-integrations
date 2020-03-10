@@ -1,16 +1,20 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
-    "version": "0.34",
+    "homepage": "https://github.com/AHCoder/galaxy-integration-ps2/",
+    "version": "0.7.8",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v0.34/windows.zip",
-    "hash": "06a355bdf1208db38ff4327edb259d0917350416340f4ff77661bba3986493b5",
+    "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/master.zip#galaxy-integration-ps2-0.7.8.zip",
+    "hash": "F77EB1A87D44ED6DCDD8FB0175004DA769124E5832C711A176DE9F5F85532D6F",
+    "extract_dir": "galaxy-integration-ps2-master",
     "extract_to": "integration",
+    "notes": [
+        "Configuration: https://github.com/AHCoder/galaxy-integration-ps2/wiki/Configuration"
+    ],
     "uninstaller": {
-        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\origin\").Delete()"
+        "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\ps2\").Delete()"
     },
     "post_install": [
-        "$integration = \"origin\"",
-        "$wildcard = \"*origin*\"",
+        "$integration = \"ps2\"",
+        "$wildcard = \"*ps2*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
@@ -67,10 +71,10 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
-        "re": "Version v(?<version>[\\d\\w.]+)"
+        "url": "https://raw.githubusercontent.com/AHCoder/galaxy-integration-ps2/master/manifest.json",
+        "jp": "$.version"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v$version/windows.zip"
+        "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/master.zip#galaxy-integration-ps2-$version.zip"
     }
 }
