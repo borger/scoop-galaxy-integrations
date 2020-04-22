@@ -125,7 +125,7 @@ This bucket is immediately updated once the included integrations get a newer ve
 - [gog-galaxy-plugin-downloader](https://github.com/Slashbunny/gog-galaxy-plugin-downloader/releases) by [Slashbunny](https://github.com/Slashbunny): If you don't want to use `scoop` to install/update your galaxy integrations, you can use this alternative method which has a compiled Windows Binary (.exe) to take care of your setup. It's based on python and if you want you can extend it easily to your liking.
 
 ## Need Emulators?
-I've also created a scoop bucket for emulators, visit https://github.com/borger/scoop-emulators for more details.
+There's a scoop bucket for emulators as well! Visit https://github.com/hermanjustnu/scoop-emulators for more details. The installation process is very similar to this one.
 
 ## Contributing
 Thank you for considering contributing to the Galaxy Integrations Scoop Bucket! You may propose new features or improvements of existing bucket behavior in the GitHub issue board. If you propose a new feature, please be willing to implement at least some of the code that would be needed to complete the feature.
