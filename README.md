@@ -25,6 +25,7 @@ Integration Platform                              | Manifest Name         |
 [Wargaming][wargaming]                            | `galaxy-wargaming`    |
 ***Community, Stores***                                                   |
 [Discord][discord]                                | `galaxy-discord`      |
+[Riot][riot]                                      | `galaxy-riot`         |
 [Twitch.tv][twitch]                               | `galaxy-twitch`       |
 ***Community, Games***                                                    |
 [Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
@@ -52,6 +53,7 @@ Integration Platform                              | Manifest Name         |
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
 [wargaming]: https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming "Friends of Galaxy"
 [discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
+[riot]: https://github.com/urwrstkn8mare/gog-riot-integration "Maintained by @urwrstkn8mare"
 [twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
 [ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
 [3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
