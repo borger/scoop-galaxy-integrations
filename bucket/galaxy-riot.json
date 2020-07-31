@@ -13,7 +13,7 @@
         "$wildcard = \"*riot*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
-        "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
+        "$source = \"$scoopdir\\apps\\$app\\current\\integration\\galaxy-riot-integration-windows\"",
         "$link = $true",
         "if (Test-Path $path) {",
         "    $backup_path = \"$persist_dir\\backup\"",
