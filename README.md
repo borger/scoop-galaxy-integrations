@@ -24,9 +24,9 @@ Integration Platform                              | Manifest Name         |
 [Uplay][uplay]                                    | `galaxy-uplay`        |
 [Wargaming][wargaming]                            | `galaxy-wargaming`    |
 ***Community, Stores***                                                   |
+[Amazon][amazon]                                  | `galaxy-amazon`       |
 [Discord][discord]                                | `galaxy-discord`      |
 [Riot][riot]                                      | `galaxy-riot`         |
-[Twitch.tv][twitch]                               | `galaxy-twitch`       |
 ***Community, Games***                                                    |
 [Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
 ***Community, Emulators***                                                |
@@ -52,9 +52,9 @@ Integration Platform                              | Manifest Name         |
 [steam]: https://github.com/FriendsOfGalaxy/galaxy-integration-steam "Friends of Galaxy"
 [uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
 [wargaming]: https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming "Friends of Galaxy"
+[amazon]: https://github.com/Rall3n/galaxy-integration-amazon "Maintainted by @Rall3n"
 [discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
 [riot]: https://github.com/urwrstkn8mare/gog-riot-integration "Maintained by @urwrstkn8mare"
-[twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintainted by @nyash-qq"
 [ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
 [3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
 [n64]: https://github.com/Riku55/galaxy-integration-n64-RetroArch- "Maintained by @Riku55"
