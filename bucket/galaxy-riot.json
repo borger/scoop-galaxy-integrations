@@ -2,8 +2,8 @@
     "homepage": "https://github.com/urwrstkn8mare/galaxy-riot-integration",
     "version": "0.2.4",
     "depends": "sudo",
-    "url": "https://github.com/urwrstkn8mare/galaxy-riot-integration/releases/download/v0.2.4/windows-v0.2.4-galaxy-riot-integration.zip",
-    "hash": "7AC732E8AE636FED6D132DD22AF9B64BD3CB951DB3F2754F7167645D3FE9B12B",
+    "url": "https://github.com/urwrstkn8mare/galaxy-riot-integration/releases/download/v0.2.5/riot_v0.2.5.zip",
+    "hash": "50A35EB3A295D8FB2C303AE5FE7B43D68B16B2ED3F984F194113581E73CFFB67",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\riot\").Delete()"
@@ -68,7 +68,7 @@
     ],
     "checkver": {
         "github": "https://github.com/urwrstkn8mare/galaxy-riot-integration",
-        "re": "/releases/download/v([\\d.]+)/(?<file>(windows-v([\\d.]+)-galaxy-riot-integration)?.(zip|7z))"
+        "re": "/releases/download/v([\\d.]+)/(?<file>(riot_v([\\d.]+))?.(zip|7z))"
     },
     "autoupdate": {
         "url": "https://github.com/urwrstkn8mare/galaxy-riot-integration/releases/download/v$version/$matchFile"
