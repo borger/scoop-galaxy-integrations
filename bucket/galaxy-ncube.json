@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/JTNDev/galaxy-integration-gc",
-    "version": "0.3.4",
+    "version": "0.3.3",
     "depends": "sudo",
-    "url": "https://github.com/JTNDev/galaxy-integration-gc/releases/download/v0.3.4/Dolphin-GCN-Retroarch-v0.3.4.zip",
-    "hash": "e04d499bc843ca5c9c8c79b90412d2b671c9c47af8d87e7f43d00562cf73e11f",
+    "url": "https://github.com/JTNDev/galaxy-integration-gc/releases/download/v0.3.3/Dolphin.GameCube.Plugin.v0.3.3.zip",
+    "hash": "06e1f71e5fc9ef947dd94e1528e27db28962fbb53d8d58c1efa7e27127d23f06",
     "extract_dir": "dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb",
     "extract_to": "integration",
     "notes": [
