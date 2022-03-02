@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/AHCoder/galaxy-integration-ps2/",
-    "version": "0.8.1",
+    "version": "0.2021.09.14",
     "depends": "sudo",
-    "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/master.zip#galaxy-integration-ps2-0.8.1.zip",
-    "hash": "8db4ad8ebb8f50cddedf149c65cde64aa9097e4c9ab43fb0933d29e32c0602d2",
+    "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/2d57a094e4447a2016074a42dd4d7b425985a48a.zip",
+    "hash": "702543f5d6e810c926b396dbbf01242772cb81201536c34878c2dbcc5c0ad2df",
     "extract_to": "integration",
     "notes": "Configuration: https://github.com/AHCoder/galaxy-integration-ps2/wiki/Configuration",
     "uninstaller": {
