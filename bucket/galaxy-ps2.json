@@ -73,6 +73,7 @@
         "replace": "0.${1}.${2}.${3}"
     },
     "autoupdate": {
-        "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/$matchSha.zip"
+        "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/$matchSha.zip",
+        "extract_dir": "galaxy-integration-ps2-$matchSha"
     }
 }
