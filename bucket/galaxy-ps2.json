@@ -4,7 +4,6 @@
     "depends": "sudo",
     "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/master.zip#galaxy-integration-ps2-0.8.1.zip",
     "hash": "8db4ad8ebb8f50cddedf149c65cde64aa9097e4c9ab43fb0933d29e32c0602d2",
-    "extract_dir": "galaxy-integration-ps2-master",
     "extract_to": "integration",
     "notes": "Configuration: https://github.com/AHCoder/galaxy-integration-ps2/wiki/Configuration",
     "uninstaller": {
@@ -15,7 +14,7 @@
         "$wildcard = \"*ps2*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
-        "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
+        "$source = \"$scoopdir\\apps\\$app\\current\\integration\\src\"",
         "$link = $true",
         "if (Test-Path $path) {",
         "    $backup_path = \"$persist_dir\\backup\"",
@@ -69,10 +68,12 @@
         "}"
     ],
     "checkver": {
-        "url": "https://raw.githubusercontent.com/AHCoder/galaxy-integration-ps2/master/manifest.json",
-        "jp": "$.version"
+        "url": "https://github.com/AHCoder/galaxy-integration-ps2/commits/master.atom",
+        "regex": "(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})",
+        "replace": "0.${1}.${2}.${3}"
     },
     "autoupdate": {
-        "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/master.zip#galaxy-integration-ps2-$version.zip"
+        "url": "https://github.com/AHCoder/galaxy-integration-ps2/archive/$matchSha.zip",
+        "extract_dir": "galaxy-integration-ps2-$matchSha"
     }
 }
