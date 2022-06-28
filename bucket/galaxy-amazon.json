@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Rall3n/galaxy-integration-amazon",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "depends": "sudo",
-    "url": "https://github.com/Rall3n/galaxy-integration-amazon/releases/download/v0.5.1/windows.zip",
-    "hash": "4723f2febb8796dda4b5f3a1b1dcb94700630ccf07c7791e526d3e9e133589fb",
+    "url": "https://github.com/Rall3n/galaxy-integration-amazon/releases/download/v0.5.2/windows.zip",
+    "hash": "0b82fdf4245bd20bfae4fea096ebfebd1f6f29ee2817fea235612f3821b0d1ce",
     "extract_to": "integration",
     "uninstaller": {
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\amazon\").Delete()"
