@@ -57,7 +57,7 @@ Integration Platform                              | Manifest Name         |
 [discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
 [riot]: https://github.com/urwrstkn8mare/gog-riot-integration "Maintained by @urwrstkn8mare"
 [ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
-[3ds]: https://github.com/j-selby/galaxy-integration-citra "Maintainted by @j-selby"
+[3ds]: https://github.com/LeonardFiedrowicz/galaxy-integration-citra "Maintainted by @LeonardFiedrowicz"
 [n64]: https://github.com/Riku55/galaxy-integration-n64-RetroArch- "Maintained by @Riku55"
 [nds]: https://github.com/TBemme/galaxy-integration-nds "Maintainted by @TBemme"
 [ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintainted by @JTNDev"
