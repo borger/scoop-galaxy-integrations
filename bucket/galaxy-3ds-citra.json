@@ -1,8 +1,8 @@
 {
-    "homepage": "https://github.com/j-selby/galaxy-integration-citra",
+    "homepage": "https://github.com/LeonardFiedrowicz/galaxy-integration-citra",
     "version": "b704367",
     "depends": "sudo",
-    "url": "https://github.com/j-selby/galaxy-integration-citra/archive/master.zip",
+    "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-citra/archive/master.zip",
     "hash": "be029a6017dcff506f202f6d4100438bb0d5fdee32bf0a392b45ea2871345890",
     "extract_dir": "galaxy-integration-citra-master",
     "extract_to": "integration",
@@ -70,10 +70,10 @@
         "}"
     ],
     "checkver": {
-        "url": "https://github.com/j-selby/galaxy-integration-citra/commit/master",
+        "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-citra/commit/master",
         "re": "commit/(?<version>[a-fA-F0-9]{7})"
     },
     "autoupdate": {
-        "url": "https://github.com/j-selby/galaxy-integration-citra/archive/master.zip"
+        "url": "https://github.com/LeonardFiedrowicz/galaxy-integration-citra/archive/master.zip"
     }
 }
