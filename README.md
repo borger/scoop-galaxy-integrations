@@ -2,7 +2,7 @@
 [![Excavator](https://github.com/borger/scoop-galaxy-integrations/actions/workflows/excavator.yml/badge.svg)](https://github.com/borger/scoop-galaxy-integrations/actions/workflows/excavator.yml) [![Repo size](https://img.shields.io/github/repo-size/borger/scoop-galaxy-integrations.svg)](https://github.com/borger/scoop-galaxy-integrations)
 ## GOG Galaxy 2 Integrations Scoop Bucket
 
-There's no easy way to keep track of all existing galaxy integrations out there and keep them up-to-date. [Scoop](http://scoop.sh) helps you get the programs you need, with a minimal amount of point-and-clicking. It's highly scalable and easily customized. It's almost like a package manager our *NIX friends know and love. It makes it easy to download, install, update and uninstall apps on your computer, as easy as `scoop install <app-name>`, cool right? I've always struggled to get my galaxy integrations in the latest version, there's just so many!
+There's no easy way to keep track of all existing galaxy integrations out there and keep them up-to-date. [Scoop](https://scoop.sh) helps you get the programs you need, with a minimal amount of point-and-clicking. It's highly scalable and easily customized. It's almost like a package manager our *NIX friends know and love. It makes it easy to download, install, update and uninstall apps on your computer, as easy as `scoop install <app-name>`, cool right? I've always struggled to get my galaxy integrations in the latest version, there's just so many!
 
 ## Integrations Available in this Bucket
 The list below contains only the integrations available in this scoop which were selected based on the GOG Galaxy's [available platforms](https://github.com/gogcom/galaxy-integrations-python-api/blob/master/PLATFORM_IDs.md), if you are looking for more integrations to be manually installed or to be added to this bucket, check the full list at [awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy).
@@ -57,7 +57,7 @@ Integration Platform                              | Manifest Name         |
 
 ## Installation
 #### Installing Scoop
-Make sure [PowerShell 5](https://aka.ms/wmf5download) (or later, include [PowerShell Core](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-6)) and [.NET Framework 4.5](https://www.microsoft.com/net/download) (or later) are installed. Then run:
+Make sure [PowerShell 5](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) (or later, include [PowerShell Core](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows)) and [.NET Framework 4.5](https://dotnet.microsoft.com/en-us/download) (or later) are installed. Then run:
 
     Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
@@ -85,7 +85,7 @@ With the galaxy integrations scoop bucket installed and GOG Galaxy closed, run
 The integrations will be installed on `C:\Users\<username>\scoop\apps\<manifest-name>\current`.
 
 #### Notes on the Install Path
-The integrations are installed in the [scoop](#-Installing-Scoop) folder, to make it visible to GOG Galaxy, [scoop](#-Installing-Scoop) will automatically create a [Symbolic Link](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) for you. It does require Administrator privilege, so if you're not already on an Administrator PowerShell session, [scoop](#-Installing-Scoop) will ask you to elevate your permission via a Windows `User Account Control` pop-up. You can, however, opt to do it manually. To do so, make sure GOG Galaxy is closed, open a command prompt as Administrator and run
+The integrations are installed in the [scoop](#-Installing-Scoop) folder, to make it visible to GOG Galaxy, [scoop](#-Installing-Scoop) will automatically create a [Symbolic Link](https://www.howtogeek.com/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) for you. It does require Administrator privilege, so if you're not already on an Administrator PowerShell session, [scoop](#-Installing-Scoop) will ask you to elevate your permission via a Windows `User Account Control` pop-up. You can, however, opt to do it manually. To do so, make sure GOG Galaxy is closed, open a command prompt as Administrator and run
 
     mklink /D "%localappdata%\GOG.com\Galaxy\plugins\installed\<manifest-name>" "%homepath%\scoop\apps\<manifest-name>\current\integration"
 Make sure to change `<manifest-name>` with the actual names.
@@ -96,7 +96,7 @@ To update scoop itself, run
     scoop update
 
 #### Updating Galaxy Integrations from the Scoop Bucket
-To update all the apps installed on your computer via [Scoop](http://scoop.sh), run
+To update all the apps installed on your computer via [Scoop](https://scoop.sh), run
 
     scoop update *
 
