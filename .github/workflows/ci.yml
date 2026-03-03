@@ -11,12 +11,12 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout Bucket
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
           path: 'galaxy-integrations'
       - name: Checkout Scoop
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: ScoopInstaller/Scoop
           path: 'scoop_core'
@@ -31,12 +31,12 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout Bucket
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
           path: 'galaxy-integrations'
       - name: Checkout Scoop
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: ScoopInstaller/Scoop
           path: 'scoop_core'

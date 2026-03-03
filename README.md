@@ -9,59 +9,49 @@ The list below contains only the integrations available in this scoop which were
 
 Integration Platform                              | Manifest Name         |
 ------------------------------------------------- | ----------------------|
-***Friends of Galaxy***                                                   |
-[Bethesda.net][bethesda]                          | `galaxy-bethesda`     |
-[Blizzard (Battle.net)][battlenet]                | `galaxy-battlenet`    |
-[Epic Games Store][epic]                          | `galaxy-epic`         |
+***Stores***                                                              |
+[Amazon][amazon]                                  | `galaxy-amazon`       |
+[Blizzard][blizzard]                              | `galaxy-blizzard`     |
 [Guild Wars 2][gw2]                               | `galaxy-gw2`          |
 [Humble Bundle][humble]                           | `galaxy-humble`       |
 [Minecraft][minecraft]                            | `galaxy-minecraft`    |
-[Origin][origin]                                  | `galaxy-origin`       |
 [Paradox][paradox]                                | `galaxy-paradox`      |
 [Path of Exile][pathofexile]                      | `galaxy-pathofexile`  |
 [PSN][psn]                                        | `galaxy-psn`          |
+[Riot][riot]                                      | `galaxy-riot`         |
 [Rockstar][rockstar]                              | `galaxy-rockstar`     |
 [Steam][steam]                                    | `galaxy-steam`        |
+[Twitch][twitch]                                  | `galaxy-twitch`       |
 [Uplay][uplay]                                    | `galaxy-uplay`        |
 [Wargaming][wargaming]                            | `galaxy-wargaming`    |
-***Community, Stores***                                                   |
-[Amazon][amazon]                                  | `galaxy-amazon`       |
-[Discord][discord]                                | `galaxy-discord`      |
-[Riot][riot]                                      | `galaxy-riot`         |
-***Community, Games***                                                    |
-[Final Fantasy XIV][ffxiv]                        | `galaxy-ffxiv`        |
-***Community, Emulators***                                                |
+***Emulators***                                                           |
 [Nintendo 3DS (Citra)][3ds]                       | `galaxy-3ds-citra`    |
 [Nintendo 64 (RetroArch)][n64]                    | `galaxy-n64`          |
 [Nintendo DS (RetroArch, DeSmuME)][nds]           | `galaxy-nds`          |
 [Nintendo GameCube (RetroArch, Dolphin)][ncube]   | `galaxy-ncube`        |
 [Nintendo Wii (RetroArch, Dolphin)][nwii]         | `galaxy-nwii`         |
 [Nintendo Wii U (Cemu)][nwiiu]                    | `galaxy-nwiiu-cemu`   |
-[Playstation 2 (PCSX2)][ps2]                      | `galaxy-ps2`   |
+[Playstation 2 (PCSX2)][ps2]                      | `galaxy-ps2`          |
 
-[battlenet]: https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard "Friends of Galaxy"
-[bethesda]: https://github.com/FriendsOfGalaxy/galaxy-integration-bethesda "Friends of Galaxy"
-[epic]: https://github.com/FriendsOfGalaxy/galaxy-integration-epic "Friends of Galaxy"
+[blizzard]: https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard "Friends of Galaxy"
 [gw2]: https://github.com/FriendsOfGalaxy/galaxy-integration-gw2 "Friends of Galaxy"
 [humble]: https://github.com/FriendsOfGalaxy/galaxy-integration-humble "Friends of Galaxy"
-[origin]: https://github.com/FriendsOfGalaxy/galaxy-integration-origin "Friends of Galaxy"
 [minecraft]: https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft "Friends of Galaxy"
 [paradox]: https://github.com/FriendsOfGalaxy/galaxy-integration-paradox "Friends of Galaxy"
 [pathofexile]: https://github.com/FriendsOfGalaxy/galaxy-integration-pathofexile "Friends of Galaxy"
 [psn]: https://github.com/FriendsOfGalaxy/galaxy-integration-psn "Friends of Galaxy"
-[rockstar]: https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar "Friends of Galaxy"
-[steam]: https://github.com/FriendsOfGalaxy/galaxy-integration-steam "Friends of Galaxy"
-[uplay]: https://github.com/FriendsOfGalaxy/galaxy-integration-uplay "Friends of Galaxy"
 [wargaming]: https://github.com/FriendsOfGalaxy/galaxy-integration-wargaming "Friends of Galaxy"
-[amazon]: https://github.com/Rall3n/galaxy-integration-amazon "Maintainted by @Rall3n"
-[discord]: https://github.com/Ertego/gog-galaxy-discord "Maintained by @Ertego"
-[riot]: https://github.com/urwrstkn8mare/gog-riot-integration "Maintained by @urwrstkn8mare"
-[ffxiv]: https://github.com/RZetko/galaxy-integration-ffxiv "Maintainted by @RZetko"
-[3ds]: https://github.com/LeonardFiedrowicz/galaxy-integration-citra "Maintainted by @LeonardFiedrowicz"
+[steam]: https://github.com/GOG-Nebula/galaxy-integration-steam "Maintained by GOG-Nebula"
+[rockstar]: https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar "Maintained by @tylerbrawl"
+[uplay]: https://github.com/GOG-Nebula/galaxy-integration-uplay "Maintained by GOG-Nebula"
+[amazon]: https://github.com/Rall3n/galaxy-integration-amazon "Maintained by @Rall3n"
+[riot]: https://github.com/BellezaEmporium/galaxy-riot-integration "Maintained by @BellezaEmporium"
+[twitch]: https://github.com/nyash-qq/galaxy-plugin-twitch "Maintained by @nyash-qq"
+[3ds]: https://github.com/LeonardFiedrowicz/galaxy-integration-citra "Maintained by @LeonardFiedrowicz"
 [n64]: https://github.com/Riku55/galaxy-integration-n64-RetroArch- "Maintained by @Riku55"
-[nds]: https://github.com/TBemme/galaxy-integration-nds "Maintainted by @TBemme"
-[ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintainted by @JTNDev"
-[nwii]: https://github.com/JTNDev/galaxy-integration-wii "Maintainted by @JTNDev"
+[nds]: https://github.com/TBemme/galaxy-integration-nds "Maintained by @TBemme"
+[ncube]: https://github.com/JTNDev/galaxy-integration-gc "Maintained by @JTNDev"
+[nwii]: https://github.com/JTNDev/galaxy-integration-wii "Maintained by @JTNDev"
 [nwiiu]: https://github.com/LeonardFiedrowicz/galaxy-integration-cemu "Maintained by @LeonardFiedrowicz"
 [ps2]: https://github.com/AHCoder/galaxy-integration-ps2 "Maintained by @AHCoder"
 
