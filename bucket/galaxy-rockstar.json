@@ -1,5 +1,6 @@
 {
     "homepage": "https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar",
+    "license": "MIT",
     "version": "0.5.15",
     "depends": "sudo",
     "url": "https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar/releases/download/v0.5.15/plugin.zip",

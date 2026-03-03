@@ -1,5 +1,6 @@
 {
     "homepage": "https://github.com/BellezaEmporium/galaxy-riot-integration",
+    "license": "MIT",
     "version": "0.2.7",
     "depends": "sudo",
     "url": "https://github.com/BellezaEmporium/galaxy-riot-integration/releases/download/0.2.7/riot_v0.2.7.zip",
