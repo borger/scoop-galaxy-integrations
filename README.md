@@ -1,6 +1,7 @@
 [![Tests](https://github.com/borger/scoop-galaxy-integrations/actions/workflows/ci.yml/badge.svg)](https://github.com/borger/scoop-galaxy-integrations/actions/workflows/ci.yml)
 [![Excavator](https://github.com/borger/scoop-galaxy-integrations/actions/workflows/excavator.yml/badge.svg)](https://github.com/borger/scoop-galaxy-integrations/actions/workflows/excavator.yml)
 [![Repo size](https://img.shields.io/github/repo-size/borger/scoop-galaxy-integrations.svg)](https://github.com/borger/scoop-galaxy-integrations)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/borger/scoop-galaxy-integrations/blob/master/LICENSE)
 
 # GOG Galaxy 2 Integrations Scoop Bucket
 
